@@ -1,0 +1,10 @@
+
+FROM python:3.13-slim
+
+RUN pip install requests beautifulsoup4 pandas
+
+RUN  mkdir app
+
+COPY scrapping.py .
+
+CMD ["python", "scrapping.py"]

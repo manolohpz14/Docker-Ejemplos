@@ -1,0 +1,21 @@
+services:
+  python:
+    container_name: scrapping_service
+    build:
+      dockerfile: Dockerfile_python
+      context: .
+    volumes:
+      - html:/app
+
+  nginx:
+    container_name: nginx_service
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - html:/usr/share/nginx/html
+    depends_on:
+      - python
+
+volumes:
+  html:
