@@ -1,0 +1,1260 @@
+2025-01-30 21:02:44,708 1 INFO ? odoo: Odoo version 18.0-20250123 
+2025-01-30 21:02:44,716 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2025-01-30 21:02:44,719 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/18.0', '/mnt/extra-addons'] 
+2025-01-30 21:02:44,723 1 INFO ? odoo: database: odoo@db:5432 
+2025-01-30 21:02:45,106 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2025-01-30 21:02:45,167 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2025-01-30 21:02:45,474 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c0ebf9696838:8069 
+2025-01-30 21:02:45,530 1 INFO odoo odoo.modules.loading: init db 
+2025-01-30 21:02:52,299 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2025-01-30 21:02:52,303 1 INFO odoo odoo.modules.loading: Loading module base (1/1) 
+2025-01-30 21:02:52,411 1 INFO odoo odoo.modules.registry: module base: creating or updating database tables 
+2025-01-30 21:02:54,558 1 INFO odoo odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2025-01-30 21:02:54,562 1 INFO odoo odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2025-01-30 21:02:54,567 1 INFO odoo odoo.models: Prepare computation of ir.module.module.views_by_module 
+2025-01-30 21:02:55,251 1 INFO odoo odoo.models: Prepare computation of res.partner.user_id 
+2025-01-30 21:02:55,254 1 INFO odoo odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2025-01-30 21:02:55,255 1 INFO odoo odoo.models: Prepare computation of res.partner.complete_name 
+2025-01-30 21:02:55,258 1 INFO odoo odoo.models: Prepare computation of res.partner.company_registry 
+2025-01-30 21:02:55,260 1 INFO odoo odoo.models: Prepare computation of res.partner.commercial_company_name 
+2025-01-30 21:02:55,262 1 INFO odoo odoo.models: Prepare computation of res.partner.partner_share 
+2025-01-30 21:02:55,525 1 INFO odoo odoo.models: Prepare computation of res.currency.decimal_places 
+2025-01-30 21:02:55,745 1 INFO odoo odoo.models: Prepare computation of res.company.uses_default_logo 
+2025-01-30 21:02:55,747 1 INFO odoo odoo.models: Prepare computation of res.company.logo_web 
+2025-01-30 21:02:55,769 1 INFO odoo odoo.models: Computing parent_path for table res_company... 
+2025-01-30 21:02:55,856 1 INFO odoo odoo.models: Prepare computation of res.users.signature 
+2025-01-30 21:02:55,857 1 INFO odoo odoo.models: Prepare computation of res.users.share 
+2025-01-30 21:02:59,889 1 INFO odoo odoo.modules.loading: loading base/data/res_bank.xml 
+2025-01-30 21:02:59,922 1 INFO odoo odoo.modules.loading: loading base/data/res.lang.csv 
+2025-01-30 21:03:00,183 1 INFO odoo odoo.modules.loading: loading base/data/res_lang_data.xml 
+2025-01-30 21:03:00,290 1 INFO odoo odoo.modules.loading: loading base/data/res_partner_data.xml 
+2025-01-30 21:03:00,392 1 INFO odoo odoo.modules.loading: loading base/data/res_currency_data.xml 
+2025-01-30 21:03:01,901 1 INFO odoo odoo.modules.loading: loading base/data/res_company_data.xml 
+2025-01-30 21:03:01,921 1 INFO odoo odoo.modules.loading: loading base/data/res_users_data.xml 
+2025-01-30 21:03:03,402 1 INFO odoo odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2025-01-30 21:03:03,445 1 INFO odoo odoo.modules.loading: loading base/data/res_country_data.xml 
+2025-01-30 21:03:05,183 1 INFO odoo odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2025-01-30 21:03:05,224 1 INFO odoo odoo.modules.loading: loading base/security/base_groups.xml 
+2025-01-30 21:03:05,968 1 INFO odoo odoo.modules.loading: loading base/security/base_security.xml 
+2025-01-30 21:03:06,394 1 INFO odoo odoo.modules.loading: loading base/views/base_menus.xml 
+2025-01-30 21:03:06,646 1 INFO odoo odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2025-01-30 21:03:06,685 1 INFO odoo odoo.modules.loading: loading base/views/res_config_views.xml 
+2025-01-30 21:03:06,699 1 INFO odoo odoo.modules.loading: loading base/data/res.country.state.csv 
+2025-01-30 21:03:08,812 1 INFO odoo odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2025-01-30 21:03:09,397 1 INFO odoo odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2025-01-30 21:03:09,479 1 INFO odoo odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2025-01-30 21:03:09,575 1 INFO odoo odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2025-01-30 21:03:09,726 1 INFO odoo odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2025-01-30 21:03:09,810 1 INFO odoo odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2025-01-30 21:03:09,883 1 INFO odoo odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2025-01-30 21:03:09,958 1 INFO odoo odoo.modules.loading: loading base/views/ir_model_views.xml 
+2025-01-30 21:03:10,696 1 INFO odoo odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2025-01-30 21:03:10,834 1 INFO odoo odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2025-01-30 21:03:10,960 1 INFO odoo odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2025-01-30 21:03:11,113 1 INFO odoo odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2025-01-30 21:03:11,265 1 INFO odoo odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2025-01-30 21:03:11,531 1 INFO odoo odoo.modules.loading: loading base/views/ir_default_views.xml 
+2025-01-30 21:03:11,653 1 INFO odoo odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2025-01-30 21:03:11,673 1 INFO odoo odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2025-01-30 21:03:11,755 1 INFO odoo odoo.modules.loading: loading base/report/ir_model_report.xml 
+2025-01-30 21:03:11,787 1 INFO odoo odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2025-01-30 21:03:11,845 1 INFO odoo odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2025-01-30 21:03:12,005 1 INFO odoo odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2025-01-30 21:03:12,058 1 INFO odoo odoo.modules.loading: loading base/views/ir_module_views.xml 
+2025-01-30 21:03:12,155 1 INFO odoo odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2025-01-30 21:03:12,529 1 INFO odoo odoo.modules.loading: loading base/data/ir_module_module.xml 
+2025-01-30 21:03:12,949 1 INFO odoo odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2025-01-30 21:03:12,973 1 INFO odoo odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2025-01-30 21:03:13,013 1 INFO odoo odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2025-01-30 21:03:13,116 1 INFO odoo odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2025-01-30 21:03:13,216 1 INFO odoo odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2025-01-30 21:03:13,317 1 INFO odoo odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2025-01-30 21:03:13,418 1 INFO odoo odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2025-01-30 21:03:13,496 1 INFO odoo odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2025-01-30 21:03:13,582 1 INFO odoo odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2025-01-30 21:03:13,688 1 INFO odoo odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2025-01-30 21:03:13,798 1 INFO odoo odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2025-01-30 21:03:13,916 1 INFO odoo odoo.modules.loading: loading base/views/res_company_views.xml 
+2025-01-30 21:03:14,029 1 INFO odoo odoo.modules.loading: loading base/views/res_lang_views.xml 
+2025-01-30 21:03:14,128 1 INFO odoo odoo.modules.loading: loading base/views/res_partner_views.xml 
+2025-01-30 21:03:14,728 1 INFO odoo odoo.modules.loading: loading base/views/res_bank_views.xml 
+2025-01-30 21:03:14,924 1 INFO odoo odoo.modules.loading: loading base/views/res_country_views.xml 
+2025-01-30 21:03:15,208 1 INFO odoo odoo.modules.loading: loading base/views/res_currency_views.xml 
+2025-01-30 21:03:15,412 1 INFO odoo odoo.modules.loading: loading base/views/res_users_views.xml 
+2025-01-30 21:03:15,914 1 INFO odoo odoo.modules.loading: loading base/views/res_device_views.xml 
+2025-01-30 21:03:15,990 1 INFO odoo odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2025-01-30 21:03:16,004 1 INFO odoo odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2025-01-30 21:03:16,015 1 INFO odoo odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2025-01-30 21:03:16,118 1 INFO odoo odoo.modules.loading: loading base/security/ir.model.access.csv 
+2025-01-30 21:03:16,457 1 INFO odoo odoo.modules.loading: Module base: loading demo 
+2025-01-30 21:03:16,466 1 INFO odoo odoo.modules.loading: loading base/data/res_users_demo.xml 
+2025-01-30 21:03:19,829 1 INFO odoo odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2025-01-30 21:03:19,860 1 INFO odoo odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2025-01-30 21:03:19,895 1 INFO odoo odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2025-01-30 21:03:21,102 1 INFO odoo odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2025-01-30 21:03:21,123 1 INFO odoo odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2025-01-30 21:03:21,467 1 INFO odoo odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2025-01-30 21:03:22,541 1 INFO odoo odoo.modules.loading: Module base loaded in 30.24s, 9250 queries (+9250 other) 
+2025-01-30 21:03:22,544 1 INFO odoo odoo.modules.loading: 1 modules loaded in 30.24s, 9250 queries (+9250 extra) 
+2025-01-30 21:03:22,616 1 INFO odoo odoo.modules.loading: updating modules list 
+2025-01-30 21:03:22,628 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-01-30 21:03:26,468 1 INFO odoo odoo.modules.loading: loading 12 modules... 
+2025-01-30 21:03:26,473 1 INFO odoo odoo.modules.loading: Loading module web (2/12) 
+2025-01-30 21:03:26,549 1 INFO odoo odoo.modules.registry: module web: creating or updating database tables 
+2025-01-30 21:03:28,020 1 INFO odoo odoo.modules.loading: loading web/security/ir.model.access.csv 
+2025-01-30 21:03:28,080 1 INFO odoo odoo.modules.loading: loading web/views/webclient_templates.xml 
+2025-01-30 21:03:28,427 1 INFO odoo odoo.modules.loading: loading web/views/report_templates.xml 
+2025-01-30 21:03:28,848 1 INFO odoo odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2025-01-30 21:03:28,916 1 INFO odoo odoo.modules.loading: loading web/views/partner_view.xml 
+2025-01-30 21:03:28,952 1 INFO odoo odoo.modules.loading: loading web/views/speedscope_template.xml 
+2025-01-30 21:03:28,973 1 INFO odoo odoo.modules.loading: loading web/views/neutralize_views.xml 
+2025-01-30 21:03:29,000 1 INFO odoo odoo.modules.loading: loading web/data/ir_attachment.xml 
+2025-01-30 21:03:29,028 1 INFO odoo odoo.modules.loading: loading web/data/report_layout.xml 
+2025-01-30 21:03:29,277 1 INFO odoo odoo.modules.loading: Module web loaded in 2.80s, 1097 queries (+1097 other) 
+2025-01-30 21:03:29,282 1 INFO odoo odoo.modules.loading: Loading module auth_totp (3/12) 
+2025-01-30 21:03:29,479 1 INFO odoo odoo.modules.registry: module auth_totp: creating or updating database tables 
+2025-01-30 21:03:29,823 1 INFO odoo odoo.modules.loading: loading auth_totp/security/security.xml 
+2025-01-30 21:03:29,970 1 INFO odoo odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2025-01-30 21:03:30,040 1 INFO odoo odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2025-01-30 21:03:30,092 1 INFO odoo odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2025-01-30 21:03:30,268 1 INFO odoo odoo.modules.loading: loading auth_totp/views/templates.xml 
+2025-01-30 21:03:30,314 1 INFO odoo odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2025-01-30 21:03:30,423 1 INFO odoo odoo.modules.loading: Module auth_totp loaded in 1.14s, 188 queries (+188 other) 
+2025-01-30 21:03:30,427 1 INFO odoo odoo.modules.loading: Loading module base_import (4/12) 
+2025-01-30 21:03:30,806 1 INFO odoo odoo.modules.registry: module base_import: creating or updating database tables 
+2025-01-30 21:03:32,397 1 INFO odoo odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2025-01-30 21:03:32,508 1 INFO odoo odoo.modules.loading: Module base_import loaded in 2.08s, 874 queries (+874 other) 
+2025-01-30 21:03:32,512 1 INFO odoo odoo.modules.loading: Loading module base_import_module (5/12) 
+2025-01-30 21:03:32,598 1 INFO odoo odoo.modules.registry: module base_import_module: creating or updating database tables 
+2025-01-30 21:03:32,836 1 INFO odoo odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2025-01-30 21:03:32,901 1 INFO odoo odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2025-01-30 21:03:33,025 1 INFO odoo odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2025-01-30 21:03:33,147 1 INFO odoo odoo.modules.loading: Module base_import_module loaded in 0.63s, 164 queries (+164 other) 
+2025-01-30 21:03:33,149 1 INFO odoo odoo.modules.loading: Loading module base_setup (6/12) 
+2025-01-30 21:03:33,217 1 INFO odoo odoo.modules.registry: module base_setup: creating or updating database tables 
+2025-01-30 21:03:33,456 1 INFO odoo odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2025-01-30 21:03:33,476 1 INFO odoo odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2025-01-30 21:03:33,638 1 INFO odoo odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2025-01-30 21:03:33,757 1 INFO odoo odoo.modules.loading: Module base_setup loaded in 0.61s, 150 queries (+150 other) 
+2025-01-30 21:03:33,762 1 INFO odoo odoo.modules.loading: Loading module bus (7/12) 
+2025-01-30 21:03:33,827 1 INFO odoo odoo.modules.registry: module bus: creating or updating database tables 
+2025-01-30 21:03:34,356 1 INFO odoo odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2025-01-30 21:03:34,457 1 INFO odoo odoo.modules.loading: Module bus loaded in 0.70s, 165 queries (+165 other) 
+2025-01-30 21:03:34,463 1 INFO odoo odoo.modules.loading: Loading module web_tour (8/12) 
+2025-01-30 21:03:34,549 1 INFO odoo odoo.modules.registry: module web_tour: creating or updating database tables 
+2025-01-30 21:03:34,557 1 INFO odoo odoo.models: Prepare computation of res.users.tour_enabled 
+2025-01-30 21:03:34,878 1 INFO odoo odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2025-01-30 21:03:34,951 1 INFO odoo odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2025-01-30 21:03:35,125 1 INFO odoo odoo.modules.loading: loading web_tour/views/res_users_views.xml 
+2025-01-30 21:03:35,322 1 INFO odoo odoo.modules.loading: Module web_tour loaded in 0.86s, 188 queries (+188 other) 
+2025-01-30 21:03:35,326 1 INFO odoo odoo.modules.loading: Loading module html_editor (9/12) 
+2025-01-30 21:03:35,570 1 INFO odoo odoo.modules.registry: module html_editor: creating or updating database tables 
+2025-01-30 21:03:35,761 1 INFO odoo odoo.modules.loading: Module html_editor loaded in 0.43s, 42 queries (+42 other) 
+2025-01-30 21:03:35,766 1 INFO odoo odoo.modules.loading: Loading module iap (10/12) 
+2025-01-30 21:03:35,815 1 INFO odoo odoo.modules.registry: module iap: creating or updating database tables 
+2025-01-30 21:03:36,006 1 INFO odoo odoo.modules.loading: loading iap/data/services.xml 
+2025-01-30 21:03:36,038 1 INFO odoo odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2025-01-30 21:03:36,092 1 INFO odoo odoo.modules.loading: loading iap/security/ir_rule.xml 
+2025-01-30 21:03:36,104 1 INFO odoo odoo.modules.loading: loading iap/views/iap_views.xml 
+2025-01-30 21:03:36,216 1 INFO odoo odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2025-01-30 21:03:36,394 1 INFO odoo odoo.modules.loading: Module iap loaded in 0.63s, 183 queries (+183 other) 
+2025-01-30 21:03:36,398 1 INFO odoo odoo.modules.loading: Loading module web_editor (11/12) 
+2025-01-30 21:03:36,664 1 INFO odoo odoo.modules.registry: module web_editor: creating or updating database tables 
+2025-01-30 21:03:38,193 1 INFO odoo odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2025-01-30 21:03:38,256 1 INFO odoo odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2025-01-30 21:03:38,286 1 INFO odoo odoo.modules.loading: loading web_editor/views/editor.xml 
+2025-01-30 21:03:38,386 1 INFO odoo odoo.modules.loading: loading web_editor/views/snippets.xml 
+2025-01-30 21:03:38,632 1 INFO odoo odoo.modules.loading: Module web_editor loaded in 2.23s, 1004 queries (+1004 other) 
+2025-01-30 21:03:38,634 1 INFO odoo odoo.modules.loading: Loading module web_unsplash (12/12) 
+2025-01-30 21:03:38,672 1 INFO odoo odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2025-01-30 21:03:38,799 1 INFO odoo odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2025-01-30 21:03:38,930 1 INFO odoo odoo.modules.loading: Module web_unsplash loaded in 0.30s, 98 queries (+98 other) 
+2025-01-30 21:03:38,934 1 INFO odoo odoo.modules.loading: 12 modules loaded in 12.46s, 4153 queries (+4153 extra) 
+2025-01-30 21:03:39,917 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2025-01-30 21:03:39,932 1 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2025-01-30 21:03:39,936 1 INFO odoo odoo.modules.registry: Registry loaded in 54.458s 
+2025-01-30 21:04:40,127 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-01-30 21:04:40,181 1 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 58 checked, 0 removed 
+2025-01-30 21:04:40,267 1 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-01-30 21:04:40,289 1 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-01-30 21:04:40,301 1 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-01-30 21:04:40,306 1 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-01-30 21:04:40,345 1 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-01-30 21:04:40,382 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.251s 
+2025-01-30 21:04:40,397 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-01-30 21:04:40,410 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-01-30 21:04:40,437 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-01-30 21:04:40,460 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) done in 0.020s 
+2025-01-30 21:04:40,475 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) processed 0 records, 0 records remaining 
+2025-01-30 21:04:40,491 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) completed 
+2025-01-30 21:06:00,533 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-01-30 21:06:00,625 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:00] "GET / HTTP/1.1" 303 - 5 0.004 0.092
+2025-01-30 21:06:00,641 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:00] "GET /odoo HTTP/1.1" 303 - 4 0.003 0.006
+2025-01-30 21:06:00,804 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:00] "GET /web/login?redirect=/odoo? HTTP/1.1" 200 - 53 0.033 0.121
+2025-01-30 21:06:01,056 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:01] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.228
+2025-01-30 21:06:01,067 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:01] "GET /web/binary/company_logo HTTP/1.1" 200 - 5 0.004 0.231
+2025-01-30 21:06:02,368 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/944fe34/web.assets_frontend_minimal.min.js (id:194) 
+2025-01-30 21:06:02,381 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:02] "GET /web/assets/944fe34/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 14 0.036 1.265
+2025-01-30 21:06:02,401 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/2257de3/web.assets_frontend.min.css (id:195) 
+2025-01-30 21:06:02,408 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:02] "GET /web/assets/2257de3/web.assets_frontend.min.css HTTP/1.1" 200 - 12 0.037 1.541
+2025-01-30 21:06:02,674 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:02] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:06:03,772 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/0b7ec93/web.assets_frontend_lazy.min.js (id:196) 
+2025-01-30 21:06:03,780 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:03] "GET /web/assets/0b7ec93/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 12 0.009 1.098
+2025-01-30 21:06:04,039 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:04] "GET /web/webclient/translations/1738271163915 HTTP/1.1" 200 - 5 0.005 0.108
+2025-01-30 21:06:13,657 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:manolohpz14 from 172.20.0.1 
+2025-01-30 21:06:13,665 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:13] "POST /web/login HTTP/1.1" 200 - 9 0.008 0.016
+2025-01-30 21:06:13,700 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:13] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.003 0.006
+2025-01-30 21:06:13,793 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:13] "GET /web/webclient/translations/1738271173777 HTTP/1.1" 200 - 5 0.004 0.006
+2025-01-30 21:06:16,802 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/database/manager HTTP/1.1" 200 - 6 0.005 0.893
+2025-01-30 21:06:16,820 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 0.002
+2025-01-30 21:06:16,828 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:06:16,829 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:06:16,834 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:06:16,835 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:06:16,836 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:06:16,837 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.007
+2025-01-30 21:06:16,846 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:06:16,852 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:06:16,860 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 0 0.000 0.011
+2025-01-30 21:06:16,863 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:06:16,867 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 0 0.000 0.010
+2025-01-30 21:06:16,868 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 0 0.000 0.013
+2025-01-30 21:06:16,869 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.008
+2025-01-30 21:06:16,875 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:06:16,880 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:16] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:06:22,312 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:22] "GET /web/webclient/translations/1738271182300 HTTP/1.1" 200 - 5 0.004 0.006
+2025-01-30 21:06:33,026 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:odoo from 172.20.0.1 
+2025-01-30 21:06:33,033 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:33] "POST /web/login HTTP/1.1" 200 - 7 0.008 0.019
+2025-01-30 21:06:33,058 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:33] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.007
+2025-01-30 21:06:33,138 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:06:33] "GET /web/webclient/translations/1738271193120 HTTP/1.1" 200 - 5 0.004 0.007
+2025-01-30 21:07:29,699 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:29] "GET /web/database/manager HTTP/1.1" 200 - 6 0.005 0.824
+2025-01-30 21:07:38,117 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:38] "GET /odoo?db=odoo HTTP/1.1" 303 - 4 0.004 0.008
+2025-01-30 21:07:38,136 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:38] "GET /web/login?redirect=/odoo?db%3Dodoo HTTP/1.1" 200 - 6 0.004 0.008
+2025-01-30 21:07:38,170 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:38] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.007
+2025-01-30 21:07:38,242 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:38] "GET /web/webclient/translations/1738271258227 HTTP/1.1" 200 - 5 0.003 0.006
+2025-01-30 21:07:47,366 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:odoo from 172.20.0.1 
+2025-01-30 21:07:47,372 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:47] "POST /web/login HTTP/1.1" 200 - 7 0.005 0.012
+2025-01-30 21:07:47,402 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:47] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.006
+2025-01-30 21:07:47,484 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:07:47] "GET /web/webclient/translations/1738271267470 HTTP/1.1" 200 - 5 0.003 0.005
+2025-01-30 21:09:28,845 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:09:28] "GET /web/database/manager HTTP/1.1" 200 - 6 0.009 0.770
+2025-01-30 21:10:58,166 1 INFO None werkzeug: 172.20.0.1 - - [30/Jan/2025 21:10:58] "POST /web/database/change_password HTTP/1.1" 303 - 4 0.005 1.639
+2025-01-30 21:10:59,102 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:10:59] "GET /web/database/manager HTTP/1.1" 200 - 6 0.006 0.924
+2025-01-30 21:11:07,306 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:07] "GET /odoo?db=odoo HTTP/1.1" 303 - 4 0.004 0.009
+2025-01-30 21:11:07,330 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:07] "GET /web/login?redirect=/odoo?db%3Dodoo HTTP/1.1" 200 - 6 0.005 0.011
+2025-01-30 21:11:07,371 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:07] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.006
+2025-01-30 21:11:07,487 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:07] "GET /web/webclient/translations/1738271467470 HTTP/1.1" 200 - 5 0.004 0.007
+2025-01-30 21:11:18,179 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:admin@admin.com from 172.20.0.1 
+2025-01-30 21:11:18,185 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:18] "POST /web/login HTTP/1.1" 200 - 7 0.006 0.014
+2025-01-30 21:11:18,220 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:18] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.006
+2025-01-30 21:11:18,301 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:18] "GET /web/webclient/translations/1738271478287 HTTP/1.1" 200 - 5 0.003 0.006
+2025-01-30 21:11:30,418 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:odoo from 172.20.0.1 
+2025-01-30 21:11:30,425 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:30] "POST /web/login HTTP/1.1" 200 - 7 0.006 0.015
+2025-01-30 21:11:30,452 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:30] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.003 0.006
+2025-01-30 21:11:30,554 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:30] "GET /web/webclient/translations/1738271490533 HTTP/1.1" 200 - 5 0.004 0.008
+2025-01-30 21:11:37,003 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:37] "GET /web/database/manager HTTP/1.1" 200 - 6 0.007 0.937
+2025-01-30 21:11:42,392 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:42] "GET /odoo?db=odoo HTTP/1.1" 303 - 4 0.003 0.006
+2025-01-30 21:11:42,410 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:42] "GET /web/login?redirect=/odoo?db%3Dodoo HTTP/1.1" 200 - 6 0.004 0.008
+2025-01-30 21:11:42,444 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:42] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.006
+2025-01-30 21:11:42,511 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:11:42] "GET /web/webclient/translations/1738271502496 HTTP/1.1" 200 - 5 0.003 0.005
+2025-01-30 21:12:47,399 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:manolohpz14 from 172.20.0.1 
+2025-01-30 21:12:47,406 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:12:47] "POST /web/login HTTP/1.1" 200 - 7 0.007 0.017
+2025-01-30 21:12:47,446 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:12:47] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.004 0.007
+2025-01-30 21:12:47,542 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:12:47] "GET /web/webclient/translations/1738271567532 HTTP/1.1" 200 - 5 0.002 0.005
+2025-01-30 21:12:51,635 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:12:51] "GET /web/database/manager HTTP/1.1" 200 - 6 0.012 0.874
+2025-01-30 21:20:30,703 1 WARNING odoo odoo.service.db: RESTORE DB: odoo already exists 
+2025-01-30 21:20:31,298 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:31] "POST /web/database/restore HTTP/1.1" 200 - 6 0.009 1.750
+2025-01-30 21:20:38,732 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:38] "GET /odoo?db=odoo HTTP/1.1" 303 - 4 0.008 0.010
+2025-01-30 21:20:38,755 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:38] "GET /web/login?redirect=/odoo?db%3Dodoo HTTP/1.1" 200 - 6 0.004 0.010
+2025-01-30 21:20:38,810 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:38] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.005 0.006
+2025-01-30 21:20:38,922 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:38] "GET /web/webclient/translations/1738272038905 HTTP/1.1" 200 - 5 0.003 0.006
+2025-01-30 21:20:48,632 1 INFO odoo odoo.addons.base.models.res_users: Login successful for db:odoo login:admin from 172.20.0.1 
+2025-01-30 21:20:48,656 1 INFO odoo odoo.modules.registry: Caches invalidated, signaling through the database: ['default'] 
+2025-01-30 21:20:48,659 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:48] "POST /web/login HTTP/1.1" 303 - 44 0.053 0.652
+2025-01-30 21:20:48,671 1 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (Wn8r4kxJ-nhTYPNQrwDKAZmjTVHa7JnWIIyzB5SpKW) 
+2025-01-30 21:20:48,926 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:48] "GET /odoo?db=odoo HTTP/1.1" 200 - 72 0.040 0.222
+2025-01-30 21:20:48,981 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:48] "GET /web/webclient/translations/d2c56b07ed5ced215bfc7ac9b473a7e7916c5840?lang=en_US HTTP/1.1" 200 - 1 0.002 0.028
+2025-01-30 21:20:48,997 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:48] "GET /web/webclient/load_menus/386c0517246da19c35ab26781dd057c1386a12fc91006a46d6ea145a8f2bd50f HTTP/1.1" 200 - 8 0.012 0.030
+2025-01-30 21:20:50,386 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/7af20c5/web.assets_web.min.css (id:197) 
+2025-01-30 21:20:50,413 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:50] "GET /web/assets/7af20c5/web.assets_web.min.css HTTP/1.1" 200 - 15 0.042 1.422
+2025-01-30 21:20:52,065 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/ca005d7/web.assets_web_print.min.css (id:198) 
+2025-01-30 21:20:52,072 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:52] "GET /web/assets/ca005d7/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.065 1.580
+2025-01-30 21:20:54,004 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/a3e6e8f/web.assets_web.min.js (id:199) 
+2025-01-30 21:20:54,036 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/assets/a3e6e8f/web.assets_web.min.js HTTP/1.1" 200 - 11 0.014 5.072
+2025-01-30 21:20:54,415 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.005 0.014
+2025-01-30 21:20:54,419 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/ba037c6/bus.websocket_worker_assets.min.js (id:200) 
+2025-01-30 21:20:54,426 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 200 - 8 0.010 0.040
+2025-01-30 21:20:54,470 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /odoo/offline HTTP/1.1" 200 - 6 0.007 0.028
+2025-01-30 21:20:54,482 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.013
+2025-01-30 21:20:54,499 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.005 0.018
+2025-01-30 21:20:54,506 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.032 0.017
+2025-01-30 21:20:54,528 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/image/res.partner/3/avatar_128?unique=1738268447000 HTTP/1.1" 200 - 12 0.027 0.034
+2025-01-30 21:20:54,529 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.032 0.039
+2025-01-30 21:20:54,582 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.006 0.009
+2025-01-30 21:20:54,596 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-01-30 21:20:54,672 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 57 0.048 0.059
+2025-01-30 21:20:54,704 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.010
+2025-01-30 21:20:54,783 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 51 0.050 0.038
+2025-01-30 21:20:54,819 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-01-30 21:20:54,874 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.010 0.161
+2025-01-30 21:20:55,110 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:20:55,117 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-01-30 21:20:55,120 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2025-01-30 21:20:55,124 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-01-30 21:20:55,125 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.020
+2025-01-30 21:20:55,125 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2025-01-30 21:20:55,131 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:20:55,144 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-01-30 21:20:55,147 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.015
+2025-01-30 21:20:55,149 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-01-30 21:20:55,151 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.017
+2025-01-30 21:20:55,154 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-01-30 21:20:55,156 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:20:55,161 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:20:55,169 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:20:55,173 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,174 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:20:55,182 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-01-30 21:20:55,185 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,193 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,199 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2025-01-30 21:20:55,201 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.015
+2025-01-30 21:20:55,204 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,212 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2025-01-30 21:20:55,215 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:20:55,221 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-01-30 21:20:55,224 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2025-01-30 21:20:55,228 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-01-30 21:20:55,229 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,231 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,232 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,240 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-01-30 21:20:55,250 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:20:55,252 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,256 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:20:55,265 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,266 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-01-30 21:20:55,277 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.023
+2025-01-30 21:20:55,283 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2025-01-30 21:20:55,288 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-01-30 21:20:55,290 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-01-30 21:20:55,296 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,302 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-01-30 21:20:55,303 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,305 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,308 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,308 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:20:55,313 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-01-30 21:20:55,318 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:20:55,321 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-01-30 21:20:55,328 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-01-30 21:20:55,331 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-01-30 21:20:55,336 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-01-30 21:20:55,338 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-01-30 21:20:55,339 1 INFO ? werkzeug: 172.20.0.1 - - [30/Jan/2025 21:20:55] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-01-30 21:28:58,721 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Restaurant'] to user admin #2 via 172.20.0.1 
+2025-01-30 21:28:58,723 1 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-01-30 21:28:58,725 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Restaurant'] to user admin #2 via 172.20.0.1 
+2025-01-30 21:28:58,929 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2025-01-30 21:28:58,950 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-01-30 21:28:59,025 1 INFO odoo odoo.modules.loading: updating modules list 
+2025-01-30 21:28:59,030 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.20.0.1 
+2025-01-30 21:29:00,415 1 INFO odoo odoo.modules.loading: loading 12 modules... 
+2025-01-30 21:29:00,428 1 INFO odoo odoo.modules.loading: 12 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-01-30 21:29:00,438 1 INFO odoo odoo.modules.loading: loading 58 modules... 
+2025-01-30 21:29:00,441 1 INFO odoo odoo.modules.loading: Loading module l10n_us (2/58) 
+2025-01-30 21:29:00,502 1 INFO odoo odoo.modules.registry: module l10n_us: creating or updating database tables 
+2025-01-30 21:29:00,601 1 INFO odoo odoo.modules.loading: loading l10n_us/data/res_company_data.xml 
+2025-01-30 21:29:00,632 1 INFO odoo odoo.modules.loading: loading l10n_us/views/res_partner_bank_views.xml 
+2025-01-30 21:29:00,689 1 INFO odoo odoo.modules.loading: Module l10n_us loaded in 0.25s, 60 queries (+60 other) 
+2025-01-30 21:29:00,690 1 INFO odoo odoo.modules.loading: Loading module uom (3/58) 
+2025-01-30 21:29:00,724 1 INFO odoo odoo.modules.registry: module uom: creating or updating database tables 
+2025-01-30 21:29:00,811 1 INFO odoo odoo.modules.loading: loading uom/data/uom_data.xml 
+2025-01-30 21:29:00,896 1 INFO odoo odoo.modules.loading: loading uom/security/uom_security.xml 
+2025-01-30 21:29:00,919 1 INFO odoo odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2025-01-30 21:29:00,931 1 INFO odoo odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2025-01-30 21:29:00,980 1 INFO odoo odoo.modules.loading: Module uom loaded in 0.29s, 298 queries (+298 other) 
+2025-01-30 21:29:00,980 1 INFO odoo odoo.modules.loading: Loading module barcodes (6/58) 
+2025-01-30 21:29:01,005 1 INFO odoo odoo.modules.registry: module barcodes: creating or updating database tables 
+2025-01-30 21:29:01,083 1 INFO odoo odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2025-01-30 21:29:01,097 1 INFO odoo odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2025-01-30 21:29:01,123 1 INFO odoo odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2025-01-30 21:29:01,146 1 INFO odoo odoo.modules.loading: Module barcodes loaded in 0.17s, 146 queries (+146 other) 
+2025-01-30 21:29:01,147 1 INFO odoo odoo.modules.loading: Loading module http_routing (11/58) 
+2025-01-30 21:29:01,174 1 INFO odoo odoo.modules.registry: module http_routing: creating or updating database tables 
+2025-01-30 21:29:01,195 1 INFO odoo odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2025-01-30 21:29:01,232 1 INFO odoo odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2025-01-30 21:29:01,263 1 INFO odoo odoo.modules.loading: Module http_routing loaded in 0.12s, 100 queries (+100 other) 
+2025-01-30 21:29:01,264 1 INFO odoo odoo.modules.loading: Loading module onboarding (12/58) 
+2025-01-30 21:29:01,291 1 INFO odoo odoo.modules.registry: module onboarding: creating or updating database tables 
+2025-01-30 21:29:01,486 1 INFO odoo odoo.modules.loading: loading onboarding/views/onboarding_templates.xml 
+2025-01-30 21:29:01,511 1 INFO odoo odoo.modules.loading: loading onboarding/views/onboarding_views.xml 
+2025-01-30 21:29:01,550 1 INFO odoo odoo.modules.loading: loading onboarding/views/onboarding_menus.xml 
+2025-01-30 21:29:01,568 1 INFO odoo odoo.modules.loading: loading onboarding/security/ir.model.access.csv 
+2025-01-30 21:29:01,606 1 INFO odoo odoo.modules.loading: Module onboarding loaded in 0.34s, 222 queries (+222 other) 
+2025-01-30 21:29:01,607 1 INFO odoo odoo.modules.loading: Loading module resource (13/58) 
+2025-01-30 21:29:01,656 1 INFO odoo odoo.modules.registry: module resource: creating or updating database tables 
+2025-01-30 21:29:01,984 1 INFO odoo odoo.modules.loading: loading resource/data/resource_data.xml 
+2025-01-30 21:29:02,005 1 INFO odoo odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2025-01-30 21:29:02,023 1 INFO odoo odoo.modules.loading: loading resource/security/resource_security.xml 
+2025-01-30 21:29:02,058 1 INFO odoo odoo.modules.loading: loading resource/views/resource_resource_views.xml 
+2025-01-30 21:29:02,091 1 INFO odoo odoo.modules.loading: loading resource/views/resource_calendar_leaves_views.xml 
+2025-01-30 21:29:02,133 1 INFO odoo odoo.modules.loading: loading resource/views/resource_calendar_attendance_views.xml 
+2025-01-30 21:29:02,148 1 INFO odoo odoo.modules.loading: loading resource/views/resource_calendar_views.xml 
+2025-01-30 21:29:02,175 1 INFO odoo odoo.modules.loading: loading resource/views/menuitems.xml 
+2025-01-30 21:29:02,200 1 INFO odoo odoo.modules.loading: Module resource: loading demo 
+2025-01-30 21:29:02,201 1 INFO odoo odoo.modules.loading: loading resource/data/resource_demo.xml 
+2025-01-30 21:29:02,254 1 INFO odoo odoo.modules.loading: Module resource loaded in 0.65s, 423 queries (+423 other) 
+2025-01-30 21:29:02,255 1 INFO odoo odoo.modules.loading: Loading module barcodes_gs1_nomenclature (15/58) 
+2025-01-30 21:29:02,283 1 INFO odoo odoo.modules.registry: module barcodes_gs1_nomenclature: creating or updating database tables 
+2025-01-30 21:29:02,354 1 INFO odoo odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml 
+2025-01-30 21:29:02,426 1 INFO odoo odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml 
+2025-01-30 21:29:02,462 1 INFO odoo odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.21s, 195 queries (+195 other) 
+2025-01-30 21:29:02,463 1 INFO odoo odoo.modules.loading: Loading module mail (18/58) 
+2025-01-30 21:29:02,519 1 INFO odoo odoo.modules.registry: module mail: creating or updating database tables 
+2025-01-30 21:29:03,259 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2025-01-30 21:29:03,260 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.template_id 
+2025-01-30 21:29:03,261 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2025-01-30 21:29:03,262 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2025-01-30 21:29:03,263 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2025-01-30 21:29:03,264 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2025-01-30 21:29:03,265 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2025-01-30 21:29:03,266 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2025-01-30 21:29:03,267 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2025-01-30 21:29:03,268 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2025-01-30 21:29:03,269 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.activity_note 
+2025-01-30 21:29:03,270 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2025-01-30 21:29:03,356 1 INFO odoo odoo.models: Prepare computation of res.company.email_primary_color 
+2025-01-30 21:29:03,357 1 INFO odoo odoo.models: Prepare computation of res.company.email_secondary_color 
+2025-01-30 21:29:03,376 1 INFO odoo odoo.models: Prepare computation of res.users.notification_type 
+2025-01-30 21:29:03,532 1 INFO odoo odoo.models: Prepare computation of res.partner.email_normalized 
+2025-01-30 21:29:05,848 1 INFO odoo odoo.modules.loading: loading mail/data/mail_groups.xml 
+2025-01-30 21:29:06,047 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_activity_schedule_views.xml 
+2025-01-30 21:29:06,069 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2025-01-30 21:29:06,083 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2025-01-30 21:29:06,118 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2025-01-30 21:29:06,141 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_resend_partner_views.xml 
+2025-01-30 21:29:06,157 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2025-01-30 21:29:06,176 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2025-01-30 21:29:06,190 1 INFO odoo odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2025-01-30 21:29:06,209 1 INFO odoo odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2025-01-30 21:29:06,245 1 INFO odoo odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2025-01-30 21:29:06,267 1 INFO odoo odoo.modules.loading: loading mail/views/mail_tracking_value_views.xml 
+2025-01-30 21:29:06,282 1 INFO odoo odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2025-01-30 21:29:06,297 1 INFO odoo odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2025-01-30 21:29:06,352 1 INFO odoo odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2025-01-30 21:29:06,384 1 INFO odoo odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2025-01-30 21:29:06,417 1 INFO odoo odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2025-01-30 21:29:06,436 1 INFO odoo odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2025-01-30 21:29:06,459 1 INFO odoo odoo.modules.loading: loading mail/views/discuss_channel_member_views.xml 
+2025-01-30 21:29:06,486 1 INFO odoo odoo.modules.loading: loading mail/views/discuss_channel_rtc_session_views.xml 
+2025-01-30 21:29:06,514 1 INFO odoo odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2025-01-30 21:29:06,538 1 INFO odoo odoo.modules.loading: loading mail/views/discuss/discuss_gif_favorite_views.xml 
+2025-01-30 21:29:06,560 1 INFO odoo odoo.modules.loading: loading mail/views/discuss_channel_views.xml 
+2025-01-30 21:29:06,631 1 INFO odoo odoo.modules.loading: loading mail/views/mail_canned_response_views.xml 
+2025-01-30 21:29:06,669 1 INFO odoo odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2025-01-30 21:29:07,028 1 INFO odoo odoo.modules.loading: loading mail/views/mail_activity_plan_views.xml 
+2025-01-30 21:29:07,102 1 INFO odoo odoo.modules.loading: loading mail/views/mail_activity_plan_template_views.xml 
+2025-01-30 21:29:07,131 1 INFO odoo odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2025-01-30 21:29:07,167 1 INFO odoo odoo.modules.loading: loading mail/data/ir_config_parameter_data.xml 
+2025-01-30 21:29:07,183 1 INFO odoo odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2025-01-30 21:29:07,279 1 INFO odoo odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2025-01-30 21:29:07,293 1 INFO odoo odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2025-01-30 21:29:07,316 1 INFO odoo odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2025-01-30 21:29:07,346 1 INFO odoo odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2025-01-30 21:29:07,366 1 INFO odoo odoo.modules.loading: loading mail/data/discuss_channel_data.xml 
+2025-01-30 21:29:07,426 1 INFO odoo odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2025-01-30 21:29:07,443 1 INFO odoo odoo.modules.loading: loading mail/data/security_notifications_templates.xml 
+2025-01-30 21:29:07,452 1 INFO odoo odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2025-01-30 21:29:07,511 1 INFO odoo odoo.modules.loading: loading mail/data/ir_actions_client.xml 
+2025-01-30 21:29:07,520 1 INFO odoo odoo.modules.loading: loading mail/security/mail_security.xml 
+2025-01-30 21:29:07,664 1 INFO odoo odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2025-01-30 21:29:07,717 1 INFO odoo odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2025-01-30 21:29:07,727 1 INFO odoo odoo.modules.loading: loading mail/views/mail_alias_domain_views.xml 
+2025-01-30 21:29:07,756 1 INFO odoo odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2025-01-30 21:29:07,782 1 INFO odoo odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2025-01-30 21:29:07,804 1 INFO odoo odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2025-01-30 21:29:07,825 1 INFO odoo odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2025-01-30 21:29:07,848 1 INFO odoo odoo.modules.loading: loading mail/views/mail_templates_public.xml 
+2025-01-30 21:29:07,863 1 INFO odoo odoo.modules.loading: loading mail/views/res_users_views.xml 
+2025-01-30 21:29:07,902 1 INFO odoo odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2025-01-30 21:29:07,921 1 INFO odoo odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2025-01-30 21:29:07,954 1 INFO odoo odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2025-01-30 21:29:07,994 1 INFO odoo odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2025-01-30 21:29:08,050 1 INFO odoo odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2025-01-30 21:29:08,115 1 INFO odoo odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2025-01-30 21:29:08,150 1 INFO odoo odoo.modules.loading: loading mail/views/mail_menus.xml 
+2025-01-30 21:29:08,398 1 INFO odoo odoo.modules.loading: loading mail/views/res_company_views.xml 
+2025-01-30 21:29:08,412 1 INFO odoo odoo.modules.loading: loading mail/views/mail_scheduled_message_views.xml 
+2025-01-30 21:29:08,423 1 INFO odoo odoo.modules.loading: loading mail/data/mail_canned_response_data.xml 
+2025-01-30 21:29:08,429 1 INFO odoo odoo.modules.loading: loading mail/data/mail_templates_invite.xml 
+2025-01-30 21:29:08,438 1 INFO odoo odoo.modules.loading: loading mail/data/web_tour_tour.xml 
+2025-01-30 21:29:08,445 1 INFO odoo odoo.modules.loading: Module mail: loading demo 
+2025-01-30 21:29:08,447 1 INFO odoo odoo.modules.loading: loading mail/demo/discuss_channel_demo.xml 
+2025-01-30 21:29:08,661 1 INFO odoo odoo.modules.loading: loading mail/demo/mail_canned_response_demo.xml 
+2025-01-30 21:29:08,732 1 INFO odoo odoo.modules.loading: Module mail loaded in 6.27s, 4704 queries (+4705 other) 
+2025-01-30 21:29:08,735 1 INFO odoo odoo.modules.loading: Loading module analytic (20/58) 
+2025-01-30 21:29:08,804 1 INFO odoo odoo.modules.registry: module analytic: creating or updating database tables 
+2025-01-30 21:29:09,078 1 INFO odoo odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2025-01-30 21:29:09,128 1 INFO odoo odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2025-01-30 21:29:09,146 1 INFO odoo odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2025-01-30 21:29:09,196 1 INFO odoo odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2025-01-30 21:29:09,262 1 INFO odoo odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2025-01-30 21:29:09,289 1 INFO odoo odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2025-01-30 21:29:09,312 1 INFO odoo odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2025-01-30 21:29:09,391 1 INFO odoo odoo.modules.loading: Module analytic: loading demo 
+2025-01-30 21:29:09,393 1 INFO odoo odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2025-01-30 21:29:09,567 1 INFO odoo odoo.schema: Keep unexpected index account_analytic_line__x_plan2_id_index on table account_analytic_line 
+2025-01-30 21:29:09,753 1 INFO odoo odoo.modules.loading: Module analytic loaded in 1.02s, 614 queries (+614 other) 
+2025-01-30 21:29:09,754 1 INFO odoo odoo.modules.loading: Loading module auth_signup (21/58) 
+2025-01-30 21:29:09,803 1 INFO odoo odoo.modules.registry: module auth_signup: creating or updating database tables 
+2025-01-30 21:29:09,929 1 INFO odoo odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2025-01-30 21:29:09,944 1 INFO odoo odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2025-01-30 21:29:09,967 1 INFO odoo odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2025-01-30 21:29:10,031 1 INFO odoo odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2025-01-30 21:29:10,097 1 INFO odoo odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2025-01-30 21:29:10,164 1 INFO odoo odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2025-01-30 21:29:10,212 1 INFO odoo odoo.modules.loading: loading auth_signup/views/auth_signup_templates_email.xml 
+2025-01-30 21:29:10,243 1 INFO odoo odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2025-01-30 21:29:10,302 1 INFO odoo odoo.modules.loading: Module auth_signup loaded in 0.55s, 207 queries (+207 other) 
+2025-01-30 21:29:10,304 1 INFO odoo odoo.modules.loading: Loading module auth_totp_mail (22/58) 
+2025-01-30 21:29:10,358 1 INFO odoo odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2025-01-30 21:29:10,404 1 INFO odoo odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2025-01-30 21:29:10,433 1 INFO odoo odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2025-01-30 21:29:10,444 1 INFO odoo odoo.modules.loading: loading auth_totp_mail/data/security_notifications_template.xml 
+2025-01-30 21:29:10,463 1 INFO odoo odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2025-01-30 21:29:10,562 1 INFO odoo odoo.modules.loading: Module auth_totp_mail loaded in 0.26s, 121 queries (+121 other) 
+2025-01-30 21:29:10,564 1 INFO odoo odoo.modules.loading: Loading module base_install_request (23/58) 
+2025-01-30 21:29:10,645 1 INFO odoo odoo.modules.registry: module base_install_request: creating or updating database tables 
+2025-01-30 21:29:10,751 1 INFO odoo odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2025-01-30 21:29:10,776 1 INFO odoo odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2025-01-30 21:29:10,803 1 INFO odoo odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2025-01-30 21:29:10,817 1 INFO odoo odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2025-01-30 21:29:10,827 1 INFO odoo odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2025-01-30 21:29:10,896 1 INFO odoo odoo.modules.loading: Module base_install_request loaded in 0.33s, 149 queries (+149 other) 
+2025-01-30 21:29:10,898 1 INFO odoo odoo.modules.loading: Loading module google_gmail (24/58) 
+2025-01-30 21:29:11,008 1 INFO odoo odoo.modules.registry: module google_gmail: creating or updating database tables 
+2025-01-30 21:29:11,111 1 INFO odoo odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2025-01-30 21:29:11,174 1 INFO odoo odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2025-01-30 21:29:11,207 1 INFO odoo odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2025-01-30 21:29:11,307 1 INFO odoo odoo.modules.loading: Module google_gmail loaded in 0.41s, 124 queries (+124 other) 
+2025-01-30 21:29:11,309 1 INFO odoo odoo.modules.loading: Loading module iap_mail (25/58) 
+2025-01-30 21:29:11,512 1 INFO odoo odoo.modules.registry: module iap_mail: creating or updating database tables 
+2025-01-30 21:29:11,578 1 INFO odoo odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2025-01-30 21:29:11,601 1 INFO odoo odoo.modules.loading: loading iap_mail/views/iap_views.xml 
+2025-01-30 21:29:11,653 1 INFO odoo odoo.modules.loading: Module iap_mail loaded in 0.34s, 66 queries (+66 other) 
+2025-01-30 21:29:11,656 1 INFO odoo odoo.modules.loading: Loading module mail_bot (26/58) 
+2025-01-30 21:29:11,730 1 INFO odoo odoo.modules.registry: module mail_bot: creating or updating database tables 
+2025-01-30 21:29:11,807 1 INFO odoo odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2025-01-30 21:29:11,859 1 INFO odoo odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2025-01-30 21:29:11,888 1 INFO odoo odoo.modules.loading: Module mail_bot loaded in 0.23s, 131 queries (+131 other) 
+2025-01-30 21:29:11,889 1 INFO odoo odoo.modules.loading: Loading module phone_validation (27/58) 
+2025-01-30 21:29:11,990 1 INFO odoo odoo.modules.registry: module phone_validation: creating or updating database tables 
+2025-01-30 21:29:13,061 1 INFO odoo odoo.schema: Keep unexpected index account_analytic_line__x_plan2_id_index on table account_analytic_line 
+2025-01-30 21:29:13,063 1 INFO odoo odoo.schema: Keep unexpected index account_analytic_line__x_plan3_id_index on table account_analytic_line 
+2025-01-30 21:29:13,096 1 INFO odoo odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2025-01-30 21:29:13,113 1 INFO odoo odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2025-01-30 21:29:13,151 1 INFO odoo odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2025-01-30 21:29:13,185 1 INFO odoo odoo.modules.loading: Module phone_validation loaded in 1.30s, 1543 queries (+1543 other) 
+2025-01-30 21:29:13,187 1 INFO odoo odoo.modules.loading: Loading module privacy_lookup (28/58) 
+2025-01-30 21:29:13,244 1 INFO odoo odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2025-01-30 21:29:13,483 1 INFO odoo odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2025-01-30 21:29:13,541 1 INFO odoo odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2025-01-30 21:29:13,574 1 INFO odoo odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2025-01-30 21:29:13,589 1 INFO odoo odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2025-01-30 21:29:13,624 1 INFO odoo odoo.modules.loading: Module privacy_lookup loaded in 0.44s, 240 queries (+240 other) 
+2025-01-30 21:29:13,625 1 INFO odoo odoo.modules.loading: Loading module product (29/58) 
+2025-01-30 21:29:13,724 1 INFO odoo odoo.modules.registry: module product: creating or updating database tables 
+2025-01-30 21:29:15,125 1 INFO odoo odoo.modules.loading: loading product/data/product_data.xml 
+2025-01-30 21:29:15,205 1 INFO odoo odoo.modules.loading: loading product/security/product_security.xml 
+2025-01-30 21:29:15,545 1 INFO odoo odoo.modules.loading: loading product/security/ir.model.access.csv 
+2025-01-30 21:29:15,571 1 INFO odoo odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2025-01-30 21:29:15,586 1 INFO odoo odoo.modules.loading: loading product/wizard/update_product_attribute_value_views.xml 
+2025-01-30 21:29:15,594 1 INFO odoo odoo.modules.loading: loading product/views/product_tag_views.xml 
+2025-01-30 21:29:15,609 1 INFO odoo odoo.modules.loading: loading product/views/product_views.xml 
+2025-01-30 21:29:15,711 1 INFO odoo odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2025-01-30 21:29:15,736 1 INFO odoo odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2025-01-30 21:29:15,779 1 INFO odoo odoo.modules.loading: loading product/views/product_attribute_value_views.xml 
+2025-01-30 21:29:15,784 1 INFO odoo odoo.modules.loading: loading product/views/product_category_views.xml 
+2025-01-30 21:29:15,801 1 INFO odoo odoo.modules.loading: loading product/views/product_combo_views.xml 
+2025-01-30 21:29:15,816 1 INFO odoo odoo.modules.loading: loading product/views/product_document_views.xml 
+2025-01-30 21:29:15,838 1 INFO odoo odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2025-01-30 21:29:15,869 1 INFO odoo odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2025-01-30 21:29:15,894 1 INFO odoo odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2025-01-30 21:29:15,922 1 INFO odoo odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2025-01-30 21:29:15,947 1 INFO odoo odoo.modules.loading: loading product/views/product_template_attribute_line_views.xml 
+2025-01-30 21:29:15,956 1 INFO odoo odoo.modules.loading: loading product/views/product_template_views.xml 
+2025-01-30 21:29:15,990 1 INFO odoo odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2025-01-30 21:29:16,000 1 INFO odoo odoo.modules.loading: loading product/views/res_partner_views.xml 
+2025-01-30 21:29:16,013 1 INFO odoo odoo.modules.loading: loading product/report/product_reports.xml 
+2025-01-30 21:29:16,037 1 INFO odoo odoo.modules.loading: loading product/report/product_product_templates.xml 
+2025-01-30 21:29:16,065 1 INFO odoo odoo.modules.loading: loading product/report/product_template_templates.xml 
+2025-01-30 21:29:16,088 1 INFO odoo odoo.modules.loading: loading product/report/product_packaging.xml 
+2025-01-30 21:29:16,095 1 INFO odoo odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2025-01-30 21:29:16,108 1 INFO odoo odoo.modules.loading: Module product: loading demo 
+2025-01-30 21:29:16,110 1 INFO odoo odoo.modules.loading: loading product/data/product_attribute_demo.xml 
+2025-01-30 21:29:16,246 1 INFO odoo odoo.modules.loading: loading product/data/product_category_demo.xml 
+2025-01-30 21:29:16,379 1 INFO odoo odoo.modules.loading: loading product/data/product_demo.xml 
+2025-01-30 21:29:16,864 1 INFO odoo odoo.models.unlink: User #1 deleted mail.message records with IDs: [66] 
+2025-01-30 21:29:16,870 1 INFO odoo odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
+2025-01-30 21:29:16,923 1 INFO odoo odoo.models.unlink: User #1 deleted mail.message records with IDs: [68, 67] 
+2025-01-30 21:29:16,927 1 INFO odoo odoo.models.unlink: User #1 deleted product.product records with IDs: [10, 11] 
+2025-01-30 21:29:17,677 1 INFO odoo odoo.models.unlink: User #1 deleted mail.message records with IDs: [86] 
+2025-01-30 21:29:17,683 1 INFO odoo odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
+2025-01-30 21:29:17,866 1 INFO odoo odoo.models.unlink: User #1 deleted mail.message records with IDs: [72] 
+2025-01-30 21:29:17,873 1 INFO odoo odoo.models.unlink: User #1 deleted product.product records with IDs: [15] 
+2025-01-30 21:29:19,531 1 INFO odoo odoo.modules.loading: loading product/data/product_document_demo.xml 
+2025-01-30 21:29:19,553 1 INFO odoo odoo.modules.loading: loading product/data/product_supplierinfo_demo.xml 
+2025-01-30 21:29:20,006 1 INFO odoo odoo.modules.loading: Module product loaded in 6.38s, 3783 queries (+3783 other) 
+2025-01-30 21:29:20,008 1 INFO odoo odoo.modules.loading: Loading module resource_mail (30/58) 
+2025-01-30 21:29:20,066 1 INFO odoo odoo.modules.registry: module resource_mail: creating or updating database tables 
+2025-01-30 21:29:20,137 1 INFO odoo odoo.modules.loading: Module resource_mail loaded in 0.13s, 35 queries (+35 other) 
+2025-01-30 21:29:20,140 1 INFO odoo odoo.modules.loading: Loading module partner_autocomplete (32/58) 
+2025-01-30 21:29:20,278 1 INFO odoo odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2025-01-30 21:29:20,437 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2025-01-30 21:29:20,448 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2025-01-30 21:29:20,474 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2025-01-30 21:29:20,487 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2025-01-30 21:29:20,504 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2025-01-30 21:29:20,517 1 INFO odoo odoo.modules.loading: loading partner_autocomplete/data/iap_service_data.xml 
+2025-01-30 21:29:20,544 1 INFO odoo odoo.modules.loading: Module partner_autocomplete loaded in 0.40s, 203 queries (+203 other) 
+2025-01-30 21:29:20,544 1 INFO odoo odoo.modules.loading: Loading module portal (33/58) 
+2025-01-30 21:29:20,613 1 INFO odoo odoo.modules.registry: module portal: creating or updating database tables 
+2025-01-30 21:29:21,057 1 INFO odoo odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2025-01-30 21:29:21,093 1 INFO odoo odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2025-01-30 21:29:21,124 1 INFO odoo odoo.modules.loading: loading portal/data/mail_templates.xml 
+2025-01-30 21:29:21,138 1 INFO odoo odoo.modules.loading: loading portal/views/mail_templates_public.xml 
+2025-01-30 21:29:21,161 1 INFO odoo odoo.modules.loading: loading portal/views/portal_templates.xml 
+2025-01-30 21:29:21,459 1 INFO odoo odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2025-01-30 21:29:21,482 1 INFO odoo odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2025-01-30 21:29:21,498 1 INFO odoo odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2025-01-30 21:29:21,552 1 INFO odoo odoo.modules.loading: Module portal loaded in 1.01s, 521 queries (+521 other) 
+2025-01-30 21:29:21,553 1 INFO odoo odoo.modules.loading: Loading module sms (34/58) 
+2025-01-30 21:29:21,663 1 INFO odoo odoo.modules.registry: module sms: creating or updating database tables 
+2025-01-30 21:29:21,700 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2025-01-30 21:29:21,702 1 INFO odoo odoo.models: Prepare computation of ir.actions.server.sms_method 
+2025-01-30 21:29:21,740 1 INFO odoo odoo.models: Prepare computation of res.partner.phone_sanitized 
+2025-01-30 21:29:22,708 1 INFO odoo odoo.modules.loading: loading sms/data/iap_service_data.xml 
+2025-01-30 21:29:22,723 1 INFO odoo odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2025-01-30 21:29:22,745 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_account_code_views.xml 
+2025-01-30 21:29:22,772 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_account_phone_views.xml 
+2025-01-30 21:29:22,786 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_account_sender_views.xml 
+2025-01-30 21:29:22,799 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2025-01-30 21:29:22,821 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2025-01-30 21:29:22,839 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2025-01-30 21:29:22,865 1 INFO odoo odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2025-01-30 21:29:22,886 1 INFO odoo odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2025-01-30 21:29:22,910 1 INFO odoo odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2025-01-30 21:29:22,933 1 INFO odoo odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2025-01-30 21:29:22,955 1 INFO odoo odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2025-01-30 21:29:22,993 1 INFO odoo odoo.modules.loading: loading sms/views/iap_account_views.xml 
+2025-01-30 21:29:23,008 1 INFO odoo odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2025-01-30 21:29:23,037 1 INFO odoo odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2025-01-30 21:29:23,068 1 INFO odoo odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2025-01-30 21:29:23,111 1 INFO odoo odoo.modules.loading: loading sms/security/sms_security.xml 
+2025-01-30 21:29:23,133 1 INFO odoo odoo.modules.loading: Module sms: loading demo 
+2025-01-30 21:29:23,135 1 INFO odoo odoo.modules.loading: loading sms/data/sms_demo.xml 
+2025-01-30 21:29:23,145 1 INFO odoo odoo.modules.loading: loading sms/data/mail_demo.xml 
+2025-01-30 21:29:23,248 1 INFO odoo odoo.modules.loading: Module sms loaded in 1.70s, 868 queries (+868 other) 
+2025-01-30 21:29:23,250 1 INFO odoo odoo.modules.loading: Loading module snailmail (35/58) 
+2025-01-30 21:29:23,342 1 INFO odoo odoo.modules.registry: module snailmail: creating or updating database tables 
+2025-01-30 21:29:24,026 1 INFO odoo odoo.modules.loading: loading snailmail/data/iap_service_data.xml 
+2025-01-30 21:29:24,036 1 INFO odoo odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2025-01-30 21:29:24,051 1 INFO odoo odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2025-01-30 21:29:24,087 1 INFO odoo odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2025-01-30 21:29:24,140 1 INFO odoo odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2025-01-30 21:29:24,168 1 INFO odoo odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2025-01-30 21:29:24,204 1 INFO odoo odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2025-01-30 21:29:24,370 1 INFO odoo odoo.modules.loading: Module snailmail loaded in 1.12s, 465 queries (+465 other) 
+2025-01-30 21:29:24,374 1 INFO odoo odoo.modules.loading: Loading module auth_totp_portal (36/58) 
+2025-01-30 21:29:24,445 1 INFO odoo odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2025-01-30 21:29:24,485 1 INFO odoo odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2025-01-30 21:29:24,510 1 INFO odoo odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2025-01-30 21:29:24,569 1 INFO odoo odoo.modules.loading: Module auth_totp_portal loaded in 0.19s, 66 queries (+66 other) 
+2025-01-30 21:29:24,573 1 INFO odoo odoo.modules.loading: Loading module digest (37/58) 
+2025-01-30 21:29:24,670 1 INFO odoo odoo.modules.registry: module digest: creating or updating database tables 
+2025-01-30 21:29:24,912 1 INFO odoo odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2025-01-30 21:29:24,938 1 INFO odoo odoo.modules.loading: loading digest/data/digest_data.xml 
+2025-01-30 21:29:24,999 1 INFO odoo odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2025-01-30 21:29:25,077 1 INFO odoo odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2025-01-30 21:29:25,113 1 INFO odoo odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2025-01-30 21:29:25,138 1 INFO odoo odoo.modules.loading: loading digest/views/digest_views.xml 
+2025-01-30 21:29:25,303 1 INFO odoo odoo.modules.loading: loading digest/views/digest_templates.xml 
+2025-01-30 21:29:25,328 1 INFO odoo odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2025-01-30 21:29:25,497 1 INFO odoo odoo.modules.loading: Module digest loaded in 0.92s, 300 queries (+300 other) 
+2025-01-30 21:29:25,501 1 INFO odoo odoo.modules.loading: Loading module payment (38/58) 
+2025-01-30 21:29:25,621 1 INFO odoo odoo.modules.registry: module payment: creating or updating database tables 
+2025-01-30 21:29:26,572 1 INFO odoo odoo.modules.loading: loading payment/data/ir_actions_server_data.xml 
+2025-01-30 21:29:26,595 1 INFO odoo odoo.modules.loading: loading payment/data/onboarding_data.xml 
+2025-01-30 21:29:26,606 1 INFO odoo odoo.modules.loading: loading payment/data/payment_method_data.xml 
+2025-01-30 21:29:29,086 1 INFO odoo odoo.modules.loading: loading payment/data/payment_provider_data.xml 
+2025-01-30 21:29:29,267 1 INFO odoo odoo.modules.loading: loading payment/data/payment_cron.xml 
+2025-01-30 21:29:29,277 1 INFO odoo odoo.modules.loading: loading payment/views/express_checkout_templates.xml 
+2025-01-30 21:29:29,288 1 INFO odoo odoo.modules.loading: loading payment/views/payment_form_templates.xml 
+2025-01-30 21:29:29,337 1 INFO odoo odoo.modules.loading: loading payment/views/portal_templates.xml 
+2025-01-30 21:29:29,383 1 INFO odoo odoo.modules.loading: loading payment/views/payment_provider_views.xml 
+2025-01-30 21:29:29,419 1 INFO odoo odoo.modules.loading: loading payment/views/payment_method_views.xml 
+2025-01-30 21:29:29,456 1 INFO odoo odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2025-01-30 21:29:29,489 1 INFO odoo odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2025-01-30 21:29:29,517 1 INFO odoo odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2025-01-30 21:29:29,538 1 INFO odoo odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2025-01-30 21:29:30,235 1 INFO odoo odoo.modules.loading: loading payment/security/payment_security.xml 
+2025-01-30 21:29:30,271 1 INFO odoo odoo.modules.loading: loading payment/wizards/payment_capture_wizard_views.xml 
+2025-01-30 21:29:30,286 1 INFO odoo odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2025-01-30 21:29:30,313 1 INFO odoo odoo.modules.loading: loading payment/wizards/payment_onboarding_views.xml 
+2025-01-30 21:29:30,383 1 INFO odoo odoo.modules.loading: Module payment loaded in 4.88s, 2264 queries (+2264 other) 
+2025-01-30 21:29:30,384 1 INFO odoo odoo.modules.loading: Loading module spreadsheet (39/58) 
+2025-01-30 21:29:30,448 1 INFO odoo odoo.modules.registry: module spreadsheet: creating or updating database tables 
+2025-01-30 21:29:30,505 1 INFO odoo odoo.modules.loading: loading spreadsheet/views/public_readonly_spreadsheet_templates.xml 
+2025-01-30 21:29:30,534 1 INFO odoo odoo.modules.loading: Module spreadsheet loaded in 0.15s, 86 queries (+86 other) 
+2025-01-30 21:29:30,536 1 INFO odoo odoo.modules.loading: Loading module account (40/58) 
+2025-01-30 21:29:30,805 1 INFO odoo odoo.modules.registry: module account: creating or updating database tables 
+2025-01-30 21:29:30,924 1 INFO odoo odoo.models: Prepare computation of res.partner.bank.has_iban_warning 
+2025-01-30 21:29:30,925 1 INFO odoo odoo.models: Prepare computation of res.partner.bank.has_money_transfer_warning 
+2025-01-30 21:29:31,168 1 INFO odoo odoo.models: Prepare computation of res.company.account_fiscal_country_id 
+2025-01-30 21:29:31,169 1 INFO odoo odoo.models: Prepare computation of res.company.invoice_terms_html 
+2025-01-30 21:29:33,501 1 INFO odoo odoo.schema: Keep unexpected index account_analytic_line__x_plan2_id_index on table account_analytic_line 
+2025-01-30 21:29:33,503 1 INFO odoo odoo.schema: Keep unexpected index account_analytic_line__x_plan3_id_index on table account_analytic_line 
+2025-01-30 21:29:34,675 1 INFO odoo odoo.modules.loading: loading account/security/account_security.xml 
+2025-01-30 21:29:35,398 1 INFO odoo odoo.modules.loading: loading account/security/ir.model.access.csv 
+2025-01-30 21:29:35,496 1 INFO odoo odoo.modules.loading: loading account/data/account_data.xml 
+2025-01-30 21:29:35,584 1 INFO odoo odoo.modules.loading: loading account/data/digest_data.xml 
+2025-01-30 21:29:35,597 1 INFO odoo odoo.modules.loading: loading account/views/account_report.xml 
+2025-01-30 21:29:35,625 1 INFO odoo odoo.modules.loading: loading account/data/mail_template_data.xml 
+2025-01-30 21:29:35,656 1 INFO odoo odoo.modules.loading: loading account/data/onboarding_data.xml 
+2025-01-30 21:29:35,703 1 INFO odoo odoo.modules.loading: loading account/data/account_tour.xml 
+2025-01-30 21:29:35,713 1 INFO odoo odoo.modules.loading: loading account/data/ir_sequence.xml 
+2025-01-30 21:29:35,722 1 INFO odoo odoo.modules.loading: loading account/views/account_payment_view.xml 
+2025-01-30 21:29:35,832 1 INFO odoo odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2025-01-30 21:29:35,862 1 INFO odoo odoo.modules.loading: loading account/wizard/account_autopost_bills_wizard.xml 
+2025-01-30 21:29:35,883 1 INFO odoo odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2025-01-30 21:29:35,896 1 INFO odoo odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2025-01-30 21:29:35,917 1 INFO odoo odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2025-01-30 21:29:35,942 1 INFO odoo odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2025-01-30 21:29:35,959 1 INFO odoo odoo.modules.loading: loading account/views/account_move_views.xml 
+2025-01-30 21:29:36,518 1 INFO odoo odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2025-01-30 21:29:36,541 1 INFO odoo odoo.modules.loading: loading account/views/account_account_views.xml 
+2025-01-30 21:29:36,574 1 INFO odoo odoo.modules.loading: loading account/views/account_group_views.xml 
+2025-01-30 21:29:36,589 1 INFO odoo odoo.modules.loading: loading account/views/account_journal_views.xml 
+2025-01-30 21:29:36,639 1 INFO odoo odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2025-01-30 21:29:36,656 1 INFO odoo odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2025-01-30 21:29:36,694 1 INFO odoo odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2025-01-30 21:29:36,731 1 INFO odoo odoo.modules.loading: loading account/views/account_tax_views.xml 
+2025-01-30 21:29:36,798 1 INFO odoo odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2025-01-30 21:29:36,807 1 INFO odoo odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2025-01-30 21:29:36,832 1 INFO odoo odoo.modules.loading: loading account/views/account_payment_method.xml 
+2025-01-30 21:29:36,843 1 INFO odoo odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2025-01-30 21:29:36,870 1 INFO odoo odoo.modules.loading: loading account/views/report_statement.xml 
+2025-01-30 21:29:36,887 1 INFO odoo odoo.modules.loading: loading account/views/terms_template.xml 
+2025-01-30 21:29:36,902 1 INFO odoo odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2025-01-30 21:29:36,917 1 INFO odoo odoo.modules.loading: loading account/views/res_company_views.xml 
+2025-01-30 21:29:36,949 1 INFO odoo odoo.modules.loading: loading account/views/product_view.xml 
+2025-01-30 21:29:36,987 1 INFO odoo odoo.modules.loading: loading account/views/account_analytic_plan_views.xml 
+2025-01-30 21:29:37,001 1 INFO odoo odoo.modules.loading: loading account/views/account_analytic_account_views.xml 
+2025-01-30 21:29:37,021 1 INFO odoo odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml 
+2025-01-30 21:29:37,045 1 INFO odoo odoo.modules.loading: loading account/views/account_analytic_line_views.xml 
+2025-01-30 21:29:37,085 1 INFO odoo odoo.modules.loading: loading account/views/report_invoice.xml 
+2025-01-30 21:29:37,140 1 INFO odoo odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2025-01-30 21:29:37,215 1 INFO odoo odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2025-01-30 21:29:37,264 1 INFO odoo odoo.modules.loading: loading account/views/ir_actions_views.xml 
+2025-01-30 21:29:37,279 1 INFO odoo odoo.modules.loading: loading account/views/ir_module_views.xml 
+2025-01-30 21:29:37,294 1 INFO odoo odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2025-01-30 21:29:37,349 1 INFO odoo odoo.modules.loading: loading account/views/partner_view.xml 
+2025-01-30 21:29:37,476 1 INFO odoo odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2025-01-30 21:29:37,506 1 INFO odoo odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2025-01-30 21:29:37,584 1 INFO odoo odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2025-01-30 21:29:37,605 1 INFO odoo odoo.modules.loading: loading account/data/service_cron.xml 
+2025-01-30 21:29:37,633 1 INFO odoo odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2025-01-30 21:29:37,669 1 INFO odoo odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2025-01-30 21:29:37,709 1 INFO odoo odoo.modules.loading: loading account/views/digest_views.xml 
+2025-01-30 21:29:37,738 1 INFO odoo odoo.modules.loading: loading account/wizard/account_move_send_wizard.xml 
+2025-01-30 21:29:37,760 1 INFO odoo odoo.modules.loading: loading account/wizard/account_move_send_batch_wizard.xml 
+2025-01-30 21:29:37,775 1 INFO odoo odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2025-01-30 21:29:37,787 1 INFO odoo odoo.modules.loading: loading account/views/res_currency.xml 
+2025-01-30 21:29:37,835 1 INFO odoo odoo.modules.loading: loading account/views/account_menuitem.xml 
+2025-01-30 21:29:38,106 1 INFO odoo odoo.modules.loading: loading account/wizard/account_secure_entries_wizard.xml 
+2025-01-30 21:29:38,128 1 INFO odoo odoo.modules.loading: loading account/views/mail_message_views.xml 
+2025-01-30 21:29:38,164 1 INFO odoo odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2025-01-30 21:29:38,177 1 INFO odoo odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2025-01-30 21:29:38,192 1 INFO odoo odoo.modules.loading: loading account/data/account_reports_data.xml 
+2025-01-30 21:29:38,228 1 INFO odoo odoo.modules.loading: loading account/views/uom_uom_views.xml 
+2025-01-30 21:29:38,245 1 INFO odoo odoo.modules.loading: loading account/views/product_views.xml 
+2025-01-30 21:29:38,276 1 INFO odoo odoo.modules.loading: loading account/views/tests_shared_js_python.xml 
+2025-01-30 21:29:38,286 1 INFO odoo odoo.modules.loading: loading account/views/base_document_layout_views.xml 
+2025-01-30 21:29:38,303 1 INFO odoo odoo.modules.loading: loading account/views/account_lock_exception_views.xml 
+2025-01-30 21:29:38,318 1 INFO odoo odoo.modules.loading: loading account/views/report_templates.xml 
+2025-01-30 21:29:38,342 1 INFO odoo odoo.modules.loading: loading account/wizard/account_merge_wizard_views.xml 
+2025-01-30 21:29:38,361 1 INFO odoo odoo.modules.loading: Module account: loading demo 
+2025-01-30 21:29:38,364 1 INFO odoo odoo.modules.loading: loading account/demo/account_demo.xml 
+2025-01-30 21:29:42,730 1 INFO odoo odoo.modules.loading: Module account loaded in 12.19s, 8318 queries (+8319 other) 
+2025-01-30 21:29:42,731 1 INFO odoo odoo.modules.loading: Loading module spreadsheet_dashboard (41/58) 
+2025-01-30 21:29:42,815 1 INFO odoo odoo.modules.registry: module spreadsheet_dashboard: creating or updating database tables 
+2025-01-30 21:29:43,068 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml 
+2025-01-30 21:29:43,184 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv 
+2025-01-30 21:29:43,196 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml 
+2025-01-30 21:29:43,222 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml 
+2025-01-30 21:29:43,281 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml 
+2025-01-30 21:29:43,379 1 INFO odoo odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.65s, 332 queries (+332 other) 
+2025-01-30 21:29:43,383 1 INFO odoo odoo.modules.loading: Loading module stock (42/58) 
+2025-01-30 21:29:43,808 1 INFO odoo odoo.modules.registry: module stock: creating or updating database tables 
+2025-01-30 21:29:44,743 1 INFO odoo odoo.models: Prepare computation of product.template.tracking 
+2025-01-30 21:29:44,744 1 INFO odoo odoo.models: Prepare computation of product.template.is_storable 
+2025-01-30 21:29:47,277 1 INFO odoo odoo.modules.loading: loading stock/security/stock_security.xml 
+2025-01-30 21:29:47,814 1 INFO odoo odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2025-01-30 21:29:47,859 1 INFO odoo odoo.modules.loading: loading stock/data/digest_data.xml 
+2025-01-30 21:29:47,866 1 INFO odoo odoo.modules.loading: loading stock/data/mail_templates.xml 
+2025-01-30 21:29:47,874 1 INFO odoo odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2025-01-30 21:29:47,883 1 INFO odoo odoo.modules.loading: loading stock/data/stock_data.xml 
+2025-01-30 21:29:48,082 1 INFO odoo odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2025-01-30 21:29:48,104 1 INFO odoo odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2025-01-30 21:29:48,108 1 INFO odoo odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2025-01-30 21:29:48,117 1 INFO odoo odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2025-01-30 21:29:48,135 1 INFO odoo odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2025-01-30 21:29:48,169 1 INFO odoo odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2025-01-30 21:29:48,184 1 INFO odoo odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2025-01-30 21:29:48,190 1 INFO odoo odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2025-01-30 21:29:48,200 1 INFO odoo odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2025-01-30 21:29:48,227 1 INFO odoo odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2025-01-30 21:29:48,263 1 INFO odoo odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2025-01-30 21:29:48,278 1 INFO odoo odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2025-01-30 21:29:48,324 1 INFO odoo odoo.modules.loading: loading stock/report/stock_lot_customer.xml 
+2025-01-30 21:29:48,386 1 INFO odoo odoo.modules.loading: loading stock/report/package_templates.xml 
+2025-01-30 21:29:48,394 1 INFO odoo odoo.modules.loading: loading stock/report/picking_templates.xml 
+2025-01-30 21:29:48,407 1 INFO odoo odoo.modules.loading: loading stock/report/product_templates.xml 
+2025-01-30 21:29:48,419 1 INFO odoo odoo.modules.loading: loading stock/report/product_packaging.xml 
+2025-01-30 21:29:48,426 1 INFO odoo odoo.modules.loading: loading stock/report/report_return_slip.xml 
+2025-01-30 21:29:48,436 1 INFO odoo odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2025-01-30 21:29:48,448 1 INFO odoo odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2025-01-30 21:29:48,535 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2025-01-30 21:29:48,551 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2025-01-30 21:29:48,570 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2025-01-30 21:29:48,590 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2025-01-30 21:29:48,603 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2025-01-30 21:29:48,614 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2025-01-30 21:29:48,631 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2025-01-30 21:29:48,659 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2025-01-30 21:29:48,675 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2025-01-30 21:29:48,698 1 INFO odoo odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2025-01-30 21:29:48,713 1 INFO odoo odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2025-01-30 21:29:48,725 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2025-01-30 21:29:48,736 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2025-01-30 21:29:48,747 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2025-01-30 21:29:48,759 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2025-01-30 21:29:48,769 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2025-01-30 21:29:48,783 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2025-01-30 21:29:48,791 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2025-01-30 21:29:48,800 1 INFO odoo odoo.modules.loading: loading stock/wizard/stock_quant_relocate.xml 
+2025-01-30 21:29:48,809 1 INFO odoo odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2025-01-30 21:29:48,843 1 INFO odoo odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2025-01-30 21:29:48,881 1 INFO odoo odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2025-01-30 21:29:48,926 1 INFO odoo odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2025-01-30 21:29:48,970 1 INFO odoo odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2025-01-30 21:29:49,159 1 INFO odoo odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2025-01-30 21:29:49,186 1 INFO odoo odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2025-01-30 21:29:49,254 1 INFO odoo odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2025-01-30 21:29:49,337 1 INFO odoo odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2025-01-30 21:29:49,487 1 INFO odoo odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2025-01-30 21:29:49,530 1 INFO odoo odoo.modules.loading: loading stock/views/product_views.xml 
+2025-01-30 21:29:49,808 1 INFO odoo odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2025-01-30 21:29:49,940 1 INFO odoo odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2025-01-30 21:29:50,020 1 INFO odoo odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2025-01-30 21:29:50,080 1 INFO odoo odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2025-01-30 21:29:50,127 1 INFO odoo odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2025-01-30 21:29:50,141 1 INFO odoo odoo.modules.loading: loading stock/views/stock_template.xml 
+2025-01-30 21:29:50,152 1 INFO odoo odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2025-01-30 21:29:50,266 1 INFO odoo odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2025-01-30 21:29:50,346 1 INFO odoo odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2025-01-30 21:29:50,403 1 INFO odoo odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2025-01-30 21:29:50,420 1 INFO odoo odoo.modules.loading: Module stock: loading demo 
+2025-01-30 21:29:50,423 1 INFO odoo odoo.modules.loading: loading stock/data/stock_demo_pre.xml 
+2025-01-30 21:29:50,741 1 INFO odoo odoo.modules.loading: loading stock/data/stock_demo.xml 
+2025-01-30 21:29:51,885 1 INFO odoo odoo.modules.loading: loading stock/data/stock_demo2.xml 
+2025-01-30 21:29:52,405 1 INFO odoo odoo.modules.loading: loading stock/data/stock_orderpoint_demo.xml 
+2025-01-30 21:29:52,433 1 INFO odoo odoo.modules.loading: loading stock/data/stock_storage_category_demo.xml 
+2025-01-30 21:29:52,582 1 INFO odoo odoo.modules.loading: Module stock loaded in 9.20s, 6919 queries (+6919 other) 
+2025-01-30 21:29:52,583 1 INFO odoo odoo.modules.loading: Loading module account_edi_ubl_cii (43/58) 
+2025-01-30 21:29:52,699 1 INFO odoo odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2025-01-30 21:29:52,730 1 INFO odoo odoo.models: Prepare computation of res.partner.peppol_endpoint 
+2025-01-30 21:29:52,732 1 INFO odoo odoo.models: Prepare computation of res.partner.peppol_eas 
+2025-01-30 21:29:53,041 1 INFO odoo odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2025-01-30 21:29:53,100 1 INFO odoo odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2025-01-30 21:29:53,238 1 INFO odoo odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2025-01-30 21:29:53,303 1 INFO odoo odoo.modules.loading: loading account_edi_ubl_cii/views/res_partner_views.xml 
+2025-01-30 21:29:53,374 1 INFO odoo odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.79s, 369 queries (+369 other) 
+2025-01-30 21:29:53,376 1 INFO odoo odoo.modules.loading: Loading module account_payment (44/58) 
+2025-01-30 21:29:53,512 1 INFO odoo odoo.modules.registry: module account_payment: creating or updating database tables 
+2025-01-30 21:29:53,565 1 INFO odoo odoo.models: Prepare computation of account.payment.method.line.payment_provider_id 
+2025-01-30 21:29:53,804 1 INFO odoo odoo.modules.loading: loading account_payment/data/ir_config_parameter.xml 
+2025-01-30 21:29:53,814 1 INFO odoo odoo.modules.loading: loading account_payment/data/onboarding_data.xml 
+2025-01-30 21:29:53,829 1 INFO odoo odoo.modules.loading: loading account_payment/security/ir.model.access.csv 
+2025-01-30 21:29:53,842 1 INFO odoo odoo.modules.loading: loading account_payment/security/ir_rules.xml 
+2025-01-30 21:29:53,854 1 INFO odoo odoo.modules.loading: loading account_payment/views/account_payment_menus.xml 
+2025-01-30 21:29:53,883 1 INFO odoo odoo.modules.loading: loading account_payment/views/account_portal_templates.xml 
+2025-01-30 21:29:53,947 1 INFO odoo odoo.modules.loading: loading account_payment/views/account_move_views.xml 
+2025-01-30 21:29:53,974 1 INFO odoo odoo.modules.loading: loading account_payment/views/account_journal_views.xml 
+2025-01-30 21:29:53,990 1 INFO odoo odoo.modules.loading: loading account_payment/views/account_payment_views.xml 
+2025-01-30 21:29:54,005 1 INFO odoo odoo.modules.loading: loading account_payment/views/payment_form_templates.xml 
+2025-01-30 21:29:54,014 1 INFO odoo odoo.modules.loading: loading account_payment/views/payment_provider_views.xml 
+2025-01-30 21:29:54,028 1 INFO odoo odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml 
+2025-01-30 21:29:54,041 1 INFO odoo odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml 
+2025-01-30 21:29:54,055 1 INFO odoo odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml 
+2025-01-30 21:29:54,074 1 INFO odoo odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml 
+2025-01-30 21:29:54,083 1 INFO odoo odoo.modules.loading: loading account_payment/wizards/res_config_settings_views.xml 
+2025-01-30 21:29:54,151 1 INFO odoo odoo.modules.loading: Module account_payment loaded in 0.78s, 533 queries (+533 other) 
+2025-01-30 21:29:54,153 1 INFO odoo odoo.modules.loading: Loading module l10n_us_account (45/58) 
+2025-01-30 21:29:54,332 1 INFO odoo odoo.modules.loading: Module l10n_us_account loaded in 0.18s, 14 queries (+14 other) 
+2025-01-30 21:29:54,335 1 INFO odoo odoo.modules.loading: Loading module snailmail_account (46/58) 
+2025-01-30 21:29:54,456 1 INFO odoo odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2025-01-30 21:29:54,651 1 INFO odoo odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2025-01-30 21:29:54,723 1 INFO odoo odoo.modules.loading: Module snailmail_account loaded in 0.39s, 117 queries (+117 other) 
+2025-01-30 21:29:54,725 1 INFO odoo odoo.modules.loading: Loading module spreadsheet_account (47/58) 
+2025-01-30 21:29:54,867 1 INFO odoo odoo.modules.registry: module spreadsheet_account: creating or updating database tables 
+2025-01-30 21:29:55,108 1 INFO odoo odoo.modules.loading: Module spreadsheet_account loaded in 0.38s, 57 queries (+57 other) 
+2025-01-30 21:29:55,109 1 INFO odoo odoo.modules.loading: Loading module spreadsheet_dashboard_account (48/58) 
+2025-01-30 21:29:55,216 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml 
+2025-01-30 21:29:55,324 1 INFO odoo odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.21s, 29 queries (+29 other) 
+2025-01-30 21:29:55,326 1 INFO odoo odoo.modules.loading: Loading module stock_account (49/58) 
+2025-01-30 21:29:55,463 1 INFO odoo odoo.modules.registry: module stock_account: creating or updating database tables 
+2025-01-30 21:29:55,523 1 INFO odoo odoo.models: Prepare computation of product.template.lot_valuated 
+2025-01-30 21:29:56,097 1 INFO odoo odoo.modules.loading: loading stock_account/security/stock_account_security.xml 
+2025-01-30 21:29:56,162 1 INFO odoo odoo.modules.loading: loading stock_account/security/ir.model.access.csv 
+2025-01-30 21:29:56,184 1 INFO odoo odoo.modules.loading: loading stock_account/data/stock_account_data.xml 
+2025-01-30 21:29:56,196 1 INFO odoo odoo.modules.loading: loading stock_account/views/stock_account_views.xml 
+2025-01-30 21:29:56,323 1 INFO odoo odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml 
+2025-01-30 21:29:56,349 1 INFO odoo odoo.modules.loading: loading stock_account/data/product_data.xml 
+2025-01-30 21:29:56,362 1 INFO odoo odoo.modules.loading: loading stock_account/views/report_invoice.xml 
+2025-01-30 21:29:56,374 1 INFO odoo odoo.modules.loading: loading stock_account/views/stock_valuation_layer_views.xml 
+2025-01-30 21:29:56,491 1 INFO odoo odoo.modules.loading: loading stock_account/views/stock_quant_views.xml 
+2025-01-30 21:29:56,520 1 INFO odoo odoo.modules.loading: loading stock_account/views/product_views.xml 
+2025-01-30 21:29:56,574 1 INFO odoo odoo.modules.loading: loading stock_account/views/stock_lot_views.xml 
+2025-01-30 21:29:56,587 1 INFO odoo odoo.modules.loading: loading stock_account/views/stock_picking_views.xml 
+2025-01-30 21:29:56,601 1 INFO odoo odoo.modules.loading: loading stock_account/wizard/stock_request_count.xml 
+2025-01-30 21:29:56,616 1 INFO odoo odoo.modules.loading: loading stock_account/wizard/stock_valuation_layer_revaluation_views.xml 
+2025-01-30 21:29:56,633 1 INFO odoo odoo.modules.loading: loading stock_account/wizard/stock_quantity_history.xml 
+2025-01-30 21:29:56,647 1 INFO odoo odoo.modules.loading: loading stock_account/report/account_invoice_report_view.xml 
+2025-01-30 21:29:56,656 1 INFO odoo odoo.modules.loading: Module stock_account: loading demo 
+2025-01-30 21:29:56,658 1 INFO odoo odoo.modules.loading: loading stock_account/data/stock_account_demo.xml 
+2025-01-30 21:29:57,081 1 INFO odoo odoo.modules.loading: Module stock_account loaded in 1.75s, 1410 queries (+1410 other) 
+2025-01-30 21:29:57,083 1 INFO odoo odoo.modules.loading: Loading module stock_sms (50/58) 
+2025-01-30 21:29:57,217 1 INFO odoo odoo.modules.registry: module stock_sms: creating or updating database tables 
+2025-01-30 21:29:57,383 1 INFO odoo odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2025-01-30 21:29:57,407 1 INFO odoo odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2025-01-30 21:29:57,463 1 INFO odoo odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2025-01-30 21:29:57,474 1 INFO odoo odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2025-01-30 21:29:57,486 1 INFO odoo odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2025-01-30 21:29:57,544 1 INFO odoo odoo.modules.loading: Module stock_sms loaded in 0.46s, 185 queries (+185 other) 
+2025-01-30 21:29:57,546 1 INFO odoo odoo.modules.loading: Loading module point_of_sale (51/58) 
+2025-01-30 21:29:57,806 1 INFO odoo odoo.modules.registry: module point_of_sale: creating or updating database tables 
+2025-01-30 21:29:59,714 1 INFO odoo odoo.modules.loading: loading point_of_sale/security/point_of_sale_security.xml 
+2025-01-30 21:30:00,240 1 INFO odoo odoo.modules.loading: loading point_of_sale/security/ir.model.access.csv 
+2025-01-30 21:30:00,378 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/default_barcode_patterns.xml 
+2025-01-30 21:30:00,408 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/digest_data.xml 
+2025-01-30 21:30:00,417 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/pos_note_data.xml 
+2025-01-30 21:30:00,457 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/mail_template_data.xml 
+2025-01-30 21:30:00,470 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/point_of_sale_tour.xml 
+2025-01-30 21:30:00,479 1 INFO odoo odoo.modules.loading: loading point_of_sale/wizard/pos_details.xml 
+2025-01-30 21:30:00,491 1 INFO odoo odoo.modules.loading: loading point_of_sale/wizard/pos_payment.xml 
+2025-01-30 21:30:00,504 1 INFO odoo odoo.modules.loading: loading point_of_sale/wizard/pos_close_session_wizard.xml 
+2025-01-30 21:30:00,517 1 INFO odoo odoo.modules.loading: loading point_of_sale/wizard/pos_daily_sales_reports.xml 
+2025-01-30 21:30:00,535 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_assets_index.xml 
+2025-01-30 21:30:00,545 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/point_of_sale_report.xml 
+2025-01-30 21:30:00,558 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/point_of_sale_view.xml 
+2025-01-30 21:30:00,630 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_note_view.xml 
+2025-01-30 21:30:00,652 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_order_view.xml 
+2025-01-30 21:30:00,778 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_category_view.xml 
+2025-01-30 21:30:00,799 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/product_combo_views.xml 
+2025-01-30 21:30:00,815 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/product_view.xml 
+2025-01-30 21:30:00,968 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/account_journal_view.xml 
+2025-01-30 21:30:00,979 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_payment_method_views.xml 
+2025-01-30 21:30:01,009 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_payment_views.xml 
+2025-01-30 21:30:01,043 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_config_view.xml 
+2025-01-30 21:30:01,104 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_bill_view.xml 
+2025-01-30 21:30:01,127 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_session_view.xml 
+2025-01-30 21:30:01,172 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/point_of_sale_sequence.xml 
+2025-01-30 21:30:01,178 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/point_of_sale_data.xml 
+2025-01-30 21:30:01,318 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_order_report_view.xml 
+2025-01-30 21:30:01,363 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/account_statement_view.xml 
+2025-01-30 21:30:01,381 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/digest_views.xml 
+2025-01-30 21:30:01,397 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/res_partner_view.xml 
+2025-01-30 21:30:01,435 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/report_userlabel.xml 
+2025-01-30 21:30:01,443 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/report_saledetails.xml 
+2025-01-30 21:30:01,455 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/point_of_sale_dashboard.xml 
+2025-01-30 21:30:01,477 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/report_invoice.xml 
+2025-01-30 21:30:01,491 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_printer_view.xml 
+2025-01-30 21:30:01,513 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_ticket_view.xml 
+2025-01-30 21:30:01,527 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/res_config_settings_views.xml 
+2025-01-30 21:30:01,569 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/customer_display_index.xml 
+2025-01-30 21:30:01,577 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/account_move_views.xml 
+2025-01-30 21:30:01,615 1 INFO odoo odoo.modules.loading: loading point_of_sale/views/pos_session_sales_details.xml 
+2025-01-30 21:30:01,637 1 INFO odoo odoo.modules.loading: Module point_of_sale: loading demo 
+2025-01-30 21:30:01,638 1 INFO odoo odoo.modules.loading: loading point_of_sale/data/demo_data.xml 
+2025-01-30 21:30:10,842 1 INFO odoo odoo.modules.loading: Module point_of_sale loaded in 13.30s, 5775 queries (+5775 other) 
+2025-01-30 21:30:10,843 1 INFO odoo odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (52/58) 
+2025-01-30 21:30:11,027 1 INFO odoo odoo.modules.loading: loading spreadsheet_dashboard_stock_account/data/dashboards.xml 
+2025-01-30 21:30:11,362 1 INFO odoo odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 0.52s, 28 queries (+28 other) 
+2025-01-30 21:30:11,363 1 INFO odoo odoo.modules.loading: Loading module pos_epson_printer (53/58) 
+2025-01-30 21:30:11,492 1 INFO odoo odoo.modules.registry: module pos_epson_printer: creating or updating database tables 
+2025-01-30 21:30:11,708 1 INFO odoo odoo.modules.loading: loading pos_epson_printer/views/pos_config_views.xml 
+2025-01-30 21:30:11,735 1 INFO odoo odoo.modules.loading: loading pos_epson_printer/views/res_config_settings_views.xml 
+2025-01-30 21:30:11,764 1 INFO odoo odoo.modules.loading: loading pos_epson_printer/views/pos_printer_views.xml 
+2025-01-30 21:30:11,823 1 INFO odoo odoo.modules.loading: Module pos_epson_printer loaded in 0.46s, 120 queries (+120 other) 
+2025-01-30 21:30:11,825 1 INFO odoo odoo.modules.loading: Loading module pos_online_payment (54/58) 
+2025-01-30 21:30:11,973 1 INFO odoo odoo.modules.registry: module pos_online_payment: creating or updating database tables 
+2025-01-30 21:30:12,286 1 INFO odoo odoo.modules.loading: loading pos_online_payment/views/payment_transaction_views.xml 
+2025-01-30 21:30:12,364 1 INFO odoo odoo.modules.loading: loading pos_online_payment/views/pos_payment_views.xml 
+2025-01-30 21:30:12,390 1 INFO odoo odoo.modules.loading: loading pos_online_payment/views/pos_payment_method_views.xml 
+2025-01-30 21:30:12,432 1 INFO odoo odoo.modules.loading: loading pos_online_payment/views/payment_portal_templates.xml 
+2025-01-30 21:30:12,475 1 INFO odoo odoo.modules.loading: loading pos_online_payment/views/account_payment_views.xml 
+2025-01-30 21:30:12,546 1 INFO odoo odoo.modules.loading: Module pos_online_payment loaded in 0.72s, 214 queries (+214 other) 
+2025-01-30 21:30:12,550 1 INFO odoo odoo.modules.loading: Loading module pos_restaurant (55/58) 
+2025-01-30 21:30:12,690 1 INFO odoo odoo.modules.registry: module pos_restaurant: creating or updating database tables 
+2025-01-30 21:30:13,013 1 INFO odoo odoo.modules.loading: loading pos_restaurant/security/ir.model.access.csv 
+2025-01-30 21:30:13,037 1 INFO odoo odoo.modules.loading: loading pos_restaurant/views/pos_order_views.xml 
+2025-01-30 21:30:13,070 1 INFO odoo odoo.modules.loading: loading pos_restaurant/views/pos_restaurant_views.xml 
+2025-01-30 21:30:13,134 1 INFO odoo odoo.modules.loading: loading pos_restaurant/views/res_config_settings_views.xml 
+2025-01-30 21:30:13,208 1 INFO odoo odoo.modules.loading: Module pos_restaurant: loading demo 
+2025-01-30 21:30:13,210 1 INFO odoo odoo.modules.loading: loading pos_restaurant/data/demo_data.xml 
+2025-01-30 21:30:17,862 1 INFO odoo odoo.models.unlink: User #1 deleted restaurant.floor records with IDs: [1] 
+2025-01-30 21:30:21,333 1 INFO odoo odoo.modules.loading: Module pos_restaurant loaded in 8.78s, 2896 queries (+2896 other) 
+2025-01-30 21:30:21,336 1 INFO odoo odoo.modules.loading: Loading module pos_self_order (56/58) 
+2025-01-30 21:30:21,480 1 INFO odoo odoo.modules.registry: module pos_self_order: creating or updating database tables 
+2025-01-30 21:30:22,022 1 INFO odoo odoo.modules.loading: loading pos_self_order/security/ir.model.access.csv 
+2025-01-30 21:30:22,043 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/pos_self_order.index.xml 
+2025-01-30 21:30:22,056 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/qr_code.xml 
+2025-01-30 21:30:22,080 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/pos_category_views.xml 
+2025-01-30 21:30:22,098 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/pos_config_view.xml 
+2025-01-30 21:30:22,113 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/pos_session_view.xml 
+2025-01-30 21:30:22,130 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/custom_link_views.xml 
+2025-01-30 21:30:22,140 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/pos_restaurant_views.xml 
+2025-01-30 21:30:22,154 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/product_views.xml 
+2025-01-30 21:30:22,208 1 INFO odoo odoo.modules.loading: loading pos_self_order/data/init_access.xml 
+2025-01-30 21:30:22,213 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/res_config_settings_views.xml 
+2025-01-30 21:30:22,260 1 INFO odoo odoo.modules.loading: loading pos_self_order/views/point_of_sale_dashboard.xml 
+2025-01-30 21:30:22,288 1 INFO odoo odoo.modules.loading: Module pos_self_order: loading demo 
+2025-01-30 21:30:22,289 1 INFO odoo odoo.modules.loading: loading pos_self_order/data/kiosk_demo_data.xml 
+2025-01-30 21:30:22,452 1 INFO odoo odoo.modules.loading: Module pos_self_order loaded in 1.12s, 861 queries (+861 other) 
+2025-01-30 21:30:22,455 1 INFO odoo odoo.modules.loading: Loading module pos_online_payment_self_order (57/58) 
+2025-01-30 21:30:22,589 1 INFO odoo odoo.modules.registry: module pos_online_payment_self_order: creating or updating database tables 
+2025-01-30 21:30:22,608 1 INFO odoo odoo.models: Prepare computation of pos.order.use_self_order_online_payment 
+2025-01-30 21:30:22,721 1 INFO odoo odoo.modules.loading: loading pos_online_payment_self_order/views/res_config_settings_views.xml 
+2025-01-30 21:30:22,785 1 INFO odoo odoo.modules.loading: Module pos_online_payment_self_order loaded in 0.33s, 123 queries (+123 other) 
+2025-01-30 21:30:22,786 1 INFO odoo odoo.modules.loading: Loading module pos_self_order_epson_printer (58/58) 
+2025-01-30 21:30:23,095 1 INFO odoo odoo.modules.loading: Module pos_self_order_epson_printer loaded in 0.31s, 14 queries (+14 other) 
+2025-01-30 21:30:23,097 1 INFO odoo odoo.modules.loading: 58 modules loaded in 82.66s, 46248 queries (+46250 extra) 
+2025-01-30 21:30:24,286 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2025-01-30 21:30:24,619 1 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2025-01-30 21:30:24,621 1 INFO odoo odoo.modules.registry: Registry loaded in 85.717s 
+2025-01-30 21:30:24,623 1 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-01-30 21:30:24,633 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:24] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 49587 40.635 45.287
+2025-01-30 21:30:24,711 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-01-30 21:30:25,639 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:25] "GET /odoo HTTP/1.1" 200 - 131 0.129 0.803
+2025-01-30 21:30:25,800 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:25] "GET /web/webclient/translations/c02748096010d1498fd813f63133d26a3bf9033a?lang=en_US HTTP/1.1" 200 - 1 0.002 0.025
+2025-01-30 21:30:25,908 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:25] "GET /web/webclient/load_menus/0990732dd008802bb336b31ac763f13bad0bca093054b99823130999b8220c97 HTTP/1.1" 200 - 69 0.058 0.076
+2025-01-30 21:30:27,605 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/c710633/web.assets_web.min.css (id:1193) 
+2025-01-30 21:30:27,607 1 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [197] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/c710633/web.assets_web.min.css 
+2025-01-30 21:30:27,628 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:27] "GET /web/assets/c710633/web.assets_web.min.css HTTP/1.1" 200 - 16 0.064 1.853
+2025-01-30 21:30:29,374 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/a4c27d8/web.assets_web_print.min.css (id:1194) 
+2025-01-30 21:30:29,389 1 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [198] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/a4c27d8/web.assets_web_print.min.css 
+2025-01-30 21:30:29,423 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:29] "GET /web/assets/a4c27d8/web.assets_web_print.min.css HTTP/1.1" 200 - 10 0.058 1.692
+2025-01-30 21:30:31,317 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/2e3bc32/web.assets_web.min.js (id:1195) 
+2025-01-30 21:30:31,322 1 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [199] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/2e3bc32/web.assets_web.min.js 
+2025-01-30 21:30:31,358 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:31] "GET /web/assets/2e3bc32/web.assets_web.min.js HTTP/1.1" 200 - 13 0.038 5.569
+2025-01-30 21:30:34,043 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:34] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.005 0.009
+2025-01-30 21:30:34,297 1 INFO odoo odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (San Francisco) (1) 
+2025-01-30 21:30:34,408 1 INFO odoo odoo.addons.iap.tools.iap_tools: iap jsonrpc https://partner-autocomplete.odoo.com/iap/partner_autocomplete/enrich 
+2025-01-30 21:30:34,630 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.008 0.010
+2025-01-30 21:30:34,639 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:34] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.004
+2025-01-30 21:30:35,456 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:35] "POST /mail/data HTTP/1.1" 200 - 95 0.055 0.063
+2025-01-30 21:30:35,709 1 INFO odoo odoo.addons.iap.tools.iap_tools: iap jsonrpc https://partner-autocomplete.odoo.com/iap/partner_autocomplete/enrich responded in 1.296 seconds 
+2025-01-30 21:30:35,755 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:35] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 51 0.084 1.420
+2025-01-30 21:30:36,485 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.007
+2025-01-30 21:30:36,539 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:30:36] "GET /odoo/offline HTTP/1.1" 200 - 6 0.005 0.011
+2025-01-30 21:30:41,910 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) starting 
+2025-01-30 21:30:41,925 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) done in 0.012s 
+2025-01-30 21:30:41,940 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) processed 0 records, 0 records remaining 
+2025-01-30 21:30:41,948 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) completed 
+2025-01-30 21:30:41,973 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2025-01-30 21:30:41,986 1 INFO odoo odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2025-01-30 21:30:41,989 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) done in 0.013s 
+2025-01-30 21:30:42,002 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,015 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) completed 
+2025-01-30 21:30:42,049 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-01-30 21:30:42,073 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.018s 
+2025-01-30 21:30:42,093 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,110 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-01-30 21:30:42,147 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2025-01-30 21:30:42,157 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) done in 0.009s 
+2025-01-30 21:30:42,169 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,180 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) completed 
+2025-01-30 21:30:42,207 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2025-01-30 21:30:42,216 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) done in 0.007s 
+2025-01-30 21:30:42,225 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,232 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) completed 
+2025-01-30 21:30:42,257 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) starting 
+2025-01-30 21:30:42,265 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) done in 0.006s 
+2025-01-30 21:30:42,273 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,281 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) completed 
+2025-01-30 21:30:42,300 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-01-30 21:30:42,312 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.009s 
+2025-01-30 21:30:42,324 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,337 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-01-30 21:30:42,361 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-01-30 21:30:42,373 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.009s 
+2025-01-30 21:30:42,387 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,395 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-01-30 21:30:42,417 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-01-30 21:30:42,430 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.010s 
+2025-01-30 21:30:42,445 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,457 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-01-30 21:30:42,484 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) starting 
+2025-01-30 21:30:42,494 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) done in 0.006s 
+2025-01-30 21:30:42,501 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,508 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) completed 
+2025-01-30 21:30:42,529 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (20) starting 
+2025-01-30 21:30:42,818 1 INFO odoo odoo.addons.stock.models.stock_orderpoint: A batch of 3 orderpoints is processed and committed 
+2025-01-30 21:30:42,882 1 INFO odoo odoo.addons.stock.models.stock_rule: A batch of 2 moves are assigned and committed 
+2025-01-30 21:30:42,888 1 INFO odoo odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2025-01-30 21:30:42,891 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (20) done in 0.360s 
+2025-01-30 21:30:42,897 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (20) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,901 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (20) completed 
+2025-01-30 21:30:42,913 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-01-30 21:30:42,919 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.006s 
+2025-01-30 21:30:42,924 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,928 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-01-30 21:30:42,938 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) starting 
+2025-01-30 21:30:42,946 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) done in 0.007s 
+2025-01-30 21:30:42,951 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,955 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) completed 
+2025-01-30 21:30:42,968 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-01-30 21:30:42,974 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.005s 
+2025-01-30 21:30:42,979 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-01-30 21:30:42,982 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-01-30 21:33:57,939 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:33:57] "POST /web/action/load HTTP/1.1" 200 - 6 0.012 0.015
+2025-01-30 21:33:57,950 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:33:57] "GET /web/image/res.partner/3/avatar_128?unique=1738268997000 HTTP/1.1" 200 - 8 0.013 0.022
+2025-01-30 21:33:57,954 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:33:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.019 0.019
+2025-01-30 21:37:47,052 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:47] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.018 0.022
+2025-01-30 21:37:47,055 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:47] "GET /web/image/discuss.channel/1/avatar_128?unique=b5cada1011fba01bb76e636e297eba841cdae3b35aa4fb07954b24909154c0b652e06798e5df37c4ebfdff3c300bb4897e33757d251c88ed977f1cd578ad9af2 HTTP/1.1" 200 - 4 0.012 0.026
+2025-01-30 21:37:47,058 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:47] "GET /web/image/discuss.channel/2/avatar_128?unique=20e08f886f6b65dd72f245a0bf66c4e49f7f4e434808db6debd51b141ae1a8a33b6c104a1742849a87dc57f2a5b9f1b7d55799e641046b4c48fa07a58d69083b HTTP/1.1" 200 - 4 0.010 0.024
+2025-01-30 21:37:47,059 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:47] "GET /web/image/res.partner/2/avatar_128?unique=1738272597000 HTTP/1.1" 200 - 7 0.014 0.025
+2025-01-30 21:37:59,566 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:59] "GET / HTTP/1.1" 303 - 1 0.001 0.005
+2025-01-30 21:37:59,599 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:59] "GET /odoo HTTP/1.1" 200 - 15 0.007 0.015
+2025-01-30 21:37:59,989 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:37:59] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.005
+2025-01-30 21:38:00,092 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "POST /web/action/load HTTP/1.1" 200 - 6 0.013 0.012
+2025-01-30 21:38:00,106 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.020 0.020
+2025-01-30 21:38:00,115 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.003 0.025
+2025-01-30 21:38:00,138 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "POST /mail/data HTTP/1.1" 200 - 28 0.032 0.027
+2025-01-30 21:38:00,187 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.008 0.006
+2025-01-30 21:38:00,226 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "POST /mail/data HTTP/1.1" 200 - 56 0.030 0.037
+2025-01-30 21:38:00,329 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:00] "POST /mail/inbox/messages HTTP/1.1" 200 - 3 0.005 0.010
+2025-01-30 21:38:02,022 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:02] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.014
+2025-01-30 21:38:05,128 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:05] "POST /web/action/load HTTP/1.1" 200 - 6 0.011 0.022
+2025-01-30 21:38:05,169 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:05] "GET /web/bundle/web.chartjs_lib?lang=en_US HTTP/1.1" 200 - 2 0.003 0.010
+2025-01-30 21:38:05,214 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e8b87f8/web.chartjs_lib.min.js (id:1196) 
+2025-01-30 21:38:05,221 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:05] "GET /web/assets/e8b87f8/web.chartjs_lib.min.js HTTP/1.1" 200 - 8 0.006 0.021
+2025-01-30 21:38:05,303 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:05] "GET /web/bundle/spreadsheet.o_spreadsheet?lang=en_US HTTP/1.1" 200 - 2 0.003 0.015
+2025-01-30 21:38:06,241 1 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4d17021/spreadsheet.o_spreadsheet.min.js (id:1197) 
+2025-01-30 21:38:06,246 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "GET /web/assets/4d17021/spreadsheet.o_spreadsheet.min.js HTTP/1.1" 200 - 8 0.006 0.921
+2025-01-30 21:38:06,379 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read HTTP/1.1" 200 - 9 0.006 0.007
+2025-01-30 21:38:06,424 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/spreadsheet.dashboard/get_readonly_dashboard HTTP/1.1" 200 - 21 0.015 0.017
+2025-01-30 21:38:06,551 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/fields_get HTTP/1.1" 200 - 11 0.043 0.027
+2025-01-30 21:38:06,557 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.account/get_account_group HTTP/1.1" 200 - 9 0.034 0.022
+2025-01-30 21:38:06,590 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/res.country/fields_get HTTP/1.1" 200 - 8 0.041 0.033
+2025-01-30 21:38:06,636 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/product.category/fields_get HTTP/1.1" 200 - 13 0.059 0.050
+2025-01-30 21:38:06,638 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 7 0.036 0.027
+2025-01-30 21:38:06,669 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.020 0.049
+2025-01-30 21:38:06,690 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.move/fields_get HTTP/1.1" 200 - 33 0.131 0.059
+2025-01-30 21:38:06,723 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.025 0.046
+2025-01-30 21:38:06,731 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.015 0.046
+2025-01-30 21:38:06,745 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.025 0.040
+2025-01-30 21:38:06,772 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.019 0.029
+2025-01-30 21:38:06,799 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/product.product/fields_get HTTP/1.1" 200 - 39 0.194 0.086
+2025-01-30 21:38:06,803 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 3 0.019 0.041
+2025-01-30 21:38:06,839 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 4 0.034 0.050
+2025-01-30 21:38:06,842 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 4 0.016 0.062
+2025-01-30 21:38:06,843 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.move/web_search_read HTTP/1.1" 200 - 7 0.017 0.032
+2025-01-30 21:38:06,870 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 6 0.020 0.026
+2025-01-30 21:38:06,871 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/read_group HTTP/1.1" 200 - 5 0.015 0.026
+2025-01-30 21:38:06,879 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/res.users/fields_get HTTP/1.1" 200 - 61 0.216 0.101
+2025-01-30 21:38:06,924 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.account/spreadsheet_fetch_debit_credit HTTP/1.1" 200 - 15 0.012 0.016
+2025-01-30 21:38:06,953 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:06] "POST /web/dataset/call_kw/account.invoice.report/web_read_group HTTP/1.1" 200 - 3 0.004 0.022
+2025-01-30 21:38:14,476 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET / HTTP/1.1" 303 - 1 0.001 0.005
+2025-01-30 21:38:14,516 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET /odoo HTTP/1.1" 200 - 15 0.011 0.021
+2025-01-30 21:38:14,683 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.004 0.007
+2025-01-30 21:38:14,753 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "POST /web/action/load HTTP/1.1" 200 - 6 0.011 0.013
+2025-01-30 21:38:14,759 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.014 0.017
+2025-01-30 21:38:14,769 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.002 0.017
+2025-01-30 21:38:14,772 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.009 0.019
+2025-01-30 21:38:14,795 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "POST /mail/data HTTP/1.1" 200 - 28 0.026 0.028
+2025-01-30 21:38:14,870 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "POST /mail/data HTTP/1.1" 200 - 56 0.031 0.047
+2025-01-30 21:38:14,964 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:14] "POST /mail/inbox/messages HTTP/1.1" 200 - 3 0.006 0.010
+2025-01-30 21:38:16,506 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:16] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.004 0.011
+2025-01-30 21:38:19,750 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "GET /odoo HTTP/1.1" 200 - 15 0.013 0.024
+2025-01-30 21:38:19,888 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.003
+2025-01-30 21:38:19,958 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "POST /web/action/load HTTP/1.1" 200 - 6 0.011 0.014
+2025-01-30 21:38:19,973 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.003 0.023
+2025-01-30 21:38:19,978 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.021 0.015
+2025-01-30 21:38:19,979 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.025 0.023
+2025-01-30 21:38:20,018 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:20] "POST /mail/data HTTP/1.1" 200 - 28 0.038 0.043
+2025-01-30 21:38:20,078 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:20] "POST /mail/data HTTP/1.1" 200 - 56 0.028 0.042
+2025-01-30 21:38:20,161 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:20] "POST /mail/inbox/messages HTTP/1.1" 200 - 3 0.002 0.005
+2025-01-30 21:38:21,739 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:21] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.004 0.010
+2025-01-30 21:38:30,738 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:30] "POST /web/action/load HTTP/1.1" 200 - 10 0.018 0.027
+2025-01-30 21:38:30,856 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:30] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 54 0.034 0.040
+2025-01-30 21:38:30,886 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.003 0.007
+2025-01-30 21:38:30,936 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.043
+2025-01-30 21:38:30,949 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 51 0.042 0.027
+2025-01-30 21:38:46,860 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:46] "GET /?debug=1/odoo/apps HTTP/1.1" 303 - 1 0.001 0.008
+2025-01-30 21:38:46,943 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:46] "GET /odoo?debug=1/odoo/apps HTTP/1.1" 200 - 33 0.023 0.044
+2025-01-30 21:38:47,079 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.006
+2025-01-30 21:38:47,106 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "GET /web/webclient/load_menus/9a1703c4571606cf3be03bb3564fd84b674deb0937bdde542743fef0ed127884 HTTP/1.1" 200 - 154 0.071 0.069
+2025-01-30 21:38:47,115 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.008 0.015
+2025-01-30 21:38:47,117 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.004 0.016
+2025-01-30 21:38:47,140 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "POST /mail/data HTTP/1.1" 200 - 28 0.026 0.024
+2025-01-30 21:38:47,186 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "POST /web/action/load HTTP/1.1" 200 - 6 0.007 0.007
+2025-01-30 21:38:47,189 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.011
+2025-01-30 21:38:47,332 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "POST /mail/data HTTP/1.1" 200 - 56 0.024 0.035
+2025-01-30 21:38:47,413 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:47] "POST /mail/inbox/messages HTTP/1.1" 200 - 3 0.003 0.005
+2025-01-30 21:38:48,898 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:48] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-01-30 21:38:54,225 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.021 0.035
+2025-01-30 21:38:54,272 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:54] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.002 0.011
+2025-01-30 21:38:54,301 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.003 0.008
+2025-01-30 21:38:54,332 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.029
+2025-01-30 21:38:54,342 1 INFO odoo werkzeug: 172.20.0.1 - - [30/Jan/2025 21:38:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 50 0.024 0.022
+2025-01-30 21:39:43,465 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-01-30 21:39:43,472 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.005s 
+2025-01-30 21:39:43,480 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-01-30 21:39:43,486 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-01-31 06:17:28,577 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-01-31 06:17:28,582 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.004s 
+2025-01-31 06:17:28,587 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,593 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-01-31 06:17:28,602 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-01-31 06:17:28,607 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.004s 
+2025-01-31 06:17:28,614 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,624 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-01-31 06:17:28,634 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-01-31 06:17:28,638 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.004s 
+2025-01-31 06:17:28,641 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,644 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-01-31 06:17:28,651 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) starting 
+2025-01-31 06:17:28,774 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) done in 0.122s 
+2025-01-31 06:17:28,777 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,780 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) completed 
+2025-01-31 06:17:28,788 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-01-31 06:17:28,791 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.003s 
+2025-01-31 06:17:28,794 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,796 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-01-31 06:17:28,805 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) starting 
+2025-01-31 06:17:28,816 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) done in 0.011s 
+2025-01-31 06:17:28,821 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,824 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) completed 
+2025-01-31 06:17:28,831 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-01-31 06:17:28,841 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.010s 
+2025-01-31 06:17:28,844 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,846 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-01-31 06:17:28,854 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-01-31 06:17:28,858 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.003s 
+2025-01-31 06:17:28,860 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-01-31 06:17:28,862 1 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-01-31 06:19:39,499 1 INFO odoo odoo.service.server: Initiating shutdown 
+2025-01-31 06:19:39,500 1 INFO odoo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-31 06:19:39,767 1 INFO odoo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
